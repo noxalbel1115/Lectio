@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="description" content="Plano de leitura cat\u00f3lica da B\u00edblia em 365 dias com di\u00e1rio espiritual, calend\u00e1rio e acompanhamento de progresso.">
 <meta name="theme-color" content="#faf6ef">
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
@@ -189,14 +190,15 @@ a{color:var(--burg);text-decoration:none}a:hover{text-decoration:underline}
   <!-- TODAY -->
   <section class="vw active" id="vHoje">
     <div class="tn">
-      <button id="bPrev">&#9666; Ant.</button>
+      <button id="bPrev" aria-label="Dia anterior">&#9666; Ant.</button>
       <div class="tc">
         <div class="tm"><span class="dot" id="tDot"></span><span id="tMod">&#8212;</span></div>
         <div class="td-num" id="tDay">Dia 1</div>
         <div class="tdt" id="tDate">&#8212;</div>
       </div>
-      <button id="bNext">Seg. &#9656;</button>
+      <button id="bNext" aria-label="Pr\u00f3ximo dia">Seg. &#9656;</button>
     </div>
+    <button class="cb pri" id="goToday" style="display:none;width:100%;margin-bottom:8px;justify-content:center">&#8592; Voltar para hoje</button>
     <button class="pray-btn" id="prayBtn">&#128591; Iniciar leitura com ora&#231;&#227;o</button>
     <div class="rc" id="cMain">
       <div class="rc-t">Leitura principal</div>
@@ -231,9 +233,9 @@ a{color:var(--burg);text-decoration:none}a:hover{text-decoration:underline}
     </div>
     <div id="jCalView" style="display:none">
       <div class="cal-nav">
-        <button id="calPrev">&#9666;</button>
+        <button id="calPrev" aria-label="M\u00eas anterior">&#9666;</button>
         <div class="cal-title" id="calTitle">&#8212;</div>
-        <button id="calNext">&#9656;</button>
+        <button id="calNext" aria-label="Pr\u00f3ximo m\u00eas">&#9656;</button>
       </div>
       <div class="cal-grid" id="calGrid"></div>
     </div>
@@ -274,7 +276,7 @@ a{color:var(--burg);text-decoration:none}a:hover{text-decoration:underline}
     <div style="text-align:center;margin-top:14px;font-size:11px;color:var(--muted)">Plano de Leitura da B&#237;blia &#183; Prof. Victor Sales Pinheiro &#183; 2026</div>
   </section>
 </div>
-<nav class="nav">
+<nav class="nav" role="navigation" aria-label="Navega\u00e7\u00e3o principal">
   <button class="nav-btn active" data-view="vHoje"><svg viewBox="0 0 24 24"><path d="M4 19V9l8-6 8 6v10a1 1 0 01-1 1h-4v-6h-6v6H5a1 1 0 01-1-1z"/></svg>Hoje</button>
   <button class="nav-btn" data-view="vJornada"><svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg>Jornada</button>
   <button class="nav-btn" data-view="vDiario"><svg viewBox="0 0 24 24"><path d="M12 20h9M16.5 3.5a2.12 2.12 0 013 3L7 19l-4 1 1-4z"/></svg>Di&#225;rio</button>
@@ -356,7 +358,7 @@ function rP(){var p=cP();var rPct=Math.round(p.r/730*100),dPct=Math.round(p.d/36
 
 /* TODAY */
 var cur=1;
-function rT(day){cur=cl(day,1,365);var e=E(cur),mod=m4d(cur),dt=d4d(cur),td=d4dt(tUTC());$("tDay").textContent="Dia "+cur;$("tDate").textContent=fBR(dt)+(cur===td?" \u00b7 hoje":"");$("tMod").textContent=mod?mod.name:"";$("tDot").style.background=mod?mod.color:"#ccc";$("rMain").textContent=e.main;$("rPar").textContent=pL(e);var cm=$("ckM"),cp=$("ckP");cm.checked=isC(cur,"main");cp.checked=isC(cur,"parallel");$("lM").textContent=cm.checked?"\u2713 Lida":"Marcar como lida";$("lP").textContent=cp.checked?"\u2713 Lida":"Marcar como lida";var di=S.diary[cur]||{};$("dD").value=di.deus||"";$("dE").value=di.eu||"";$("sS").textContent=hD(cur)?"\u2713 Salvo":"\u2014";$("sS").className="ss"+(hD(cur)?" ok":"")}
+function rT(day){cur=cl(day,1,365);var e=E(cur),mod=m4d(cur),dt=d4d(cur),td=d4dt(tUTC());$("tDay").textContent="Dia "+cur;$("tDate").textContent=fBR(dt)+(cur===td?" \u00b7 hoje":"");$("tMod").textContent=mod?mod.name:"";$("tDot").style.background=mod?mod.color:"#ccc";$("rMain").textContent=e.main;$("rPar").textContent=pL(e);var cm=$("ckM"),cp=$("ckP");cm.checked=isC(cur,"main");cp.checked=isC(cur,"parallel");$("lM").textContent=cm.checked?"\u2713 Lida":"Marcar como lida";$("lP").textContent=cp.checked?"\u2713 Lida":"Marcar como lida";var di=S.diary[cur]||{};$("dD").value=di.deus||"";$("dE").value=di.eu||"";$("sS").textContent=hD(cur)?"\u2713 Salvo":"\u2014";$("sS").className="ss"+(hD(cur)?" ok":"");$("goToday").style.display=cur===td?"none":"flex"}
 
 function onCk(k){var v=$(k==="main"?"ckM":"ckP").checked;setC(cur,k,v);$(k==="main"?"lM":"lP").textContent=v?"\u2713 Lida":"Marcar como lida";cStr();rP();chkMod(cur)}
 function chkMod(day){var mod=m4d(day);if(!mod||S.completedModules[mod.name])return;for(var d=mod.start;d<=mod.end;d++){if(!dC(d))return}S.completedModules[mod.name]=true;save();$("cTt").textContent=mod.name+" \u2713";$("cTx").innerHTML="Dias "+mod.start+"\u2013"+mod.end+" conclu\u00eddos.<br><br>Gl\u00f3ria a Deus!";$("celeb").classList.add("show")}
@@ -371,7 +373,7 @@ function setTheme(t){document.documentElement.setAttribute("data-theme",t);S.the
 /* SWIPE */
 var swX=0,swY=0,swiping=false;
 function onTS(e){if(e.touches.length===1){swX=e.touches[0].clientX;swY=e.touches[0].clientY;swiping=true}}
-function onTM(e){if(!swiping)return;var dx=e.touches[0].clientX-swX,dy=e.touches[0].clientY-swY;if(Math.abs(dx)>Math.abs(dy)&&Math.abs(dx)>10){e.preventDefault()}}
+function onTM(e){if(!swiping)return;var dx=e.touches[0].clientX-swX,dy=e.touches[0].clientY-swY;if(Math.abs(dx)>Math.abs(dy)&&Math.abs(dx)>30){e.preventDefault()}}
 function onTE(e){if(!swiping)return;swiping=false;var dx=e.changedTouches[0].clientX-swX,dy=e.changedTouches[0].clientY-swY;if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy)*1.5){if(dx>0)rT(cur-1);else rT(cur+1)}}
 
 /* PRAYER */
@@ -404,7 +406,7 @@ function expTxt(){var l=["DI\u00c1RIO ESPIRITUAL \u2014 Plano de Leitura da B\u0
 function expJson(){dl("lectio-backup.json",JSON.stringify(S,null,2),"application/json")}
 function dl(n,c,t){var b=new Blob([c],{type:t});if(navigator.share&&/mobile|android|iphone/i.test(navigator.userAgent)){var f=new File([b],n,{type:t});navigator.share({files:[f]}).catch(function(){fdl(b,n)})}else{fdl(b,n)}}
 function fdl(b,n){var a=document.createElement("a");a.href=URL.createObjectURL(b);a.download=n;a.click();setTimeout(function(){URL.revokeObjectURL(a.href)},5000)}
-function impJson(f){var r=new FileReader();r.onload=function(){try{var d=JSON.parse(r.result);if(d.v){S=d}else if(d.checks){S=mig(d)}else{toast("Arquivo inv\u00e1lido");return}save();initUI();toast("Backup importado \u2713")}catch(e){toast("Erro ao ler arquivo")}};r.readAsText(f)}
+function impJson(f){var r=new FileReader();r.onload=function(){try{var d=JSON.parse(r.result);if(d.v&&typeof d.v==="number"&&typeof d.checks==="object"&&typeof d.diary==="object"&&typeof d.startDate==="string"){S=d}else if(d.checks&&typeof d.checks==="object"){S=mig(d)}else{toast("Arquivo inv\u00e1lido: formato n\u00e3o reconhecido");return}save();initUI();toast("Backup importado \u2713")}catch(e){toast("Erro ao ler arquivo: "+e.message)}};r.readAsText(f)}
 
 /* TOAST */
 var tTm;function toast(m){clearTimeout(tTm);var t=$("toast");t.textContent=m;t.classList.add("show");tTm=setTimeout(function(){t.classList.remove("show")},2500)}
@@ -416,6 +418,7 @@ function initUI(){loadSmart().then(function(s){S=s;if(!S.theme)S.theme="light";s
 var navBtns=document.querySelectorAll(".nav-btn");for(var i=0;i<navBtns.length;i++){(function(b){b.addEventListener("click",function(){sw(b.dataset.view)})})(navBtns[i])}
 $("bPrev").onclick=function(){rT(cur-1)};
 $("bNext").onclick=function(){rT(cur+1)};
+$("goToday").onclick=function(){rT(cl(d4dt(tUTC()),1,365))};
 $("ckM").onchange=function(){onCk("main")};
 $("ckP").onchange=function(){onCk("parallel")};
 $("dD").oninput=onDI;
@@ -448,13 +451,13 @@ document.addEventListener("keydown",function(e){if(e.target.tagName==="TEXTAREA"
 initUI();
 
 /* SERVICE WORKER */
-if("serviceWorker" in navigator){navigator.serviceWorker.register("./sw.js").then(function(reg){console.log("SW registered");window._swReg=reg}).catch(function(e){console.log("SW error",e)})}
+if("serviceWorker" in navigator){navigator.serviceWorker.register("./sw.js").then(function(reg){console.log("SW registered");window._swReg=reg;reg.addEventListener("updatefound",function(){var nw=reg.installing;if(nw){nw.addEventListener("statechange",function(){if(nw.state==="installed"&&navigator.serviceWorker.controller){toast("Nova vers\u00e3o dispon\u00edvel! Recarregue a p\u00e1gina.")}})}})}).catch(function(e){console.log("SW error",e)})}
 
 /* NOTIFICATIONS */
 function checkNotifSupport(){if(!("Notification" in window)||!("serviceWorker" in navigator)){$("notifStatus").textContent="N\u00e3o suportado";return false}if(Notification.permission==="granted"){$("notifStatus").textContent="\u2713 Ativo";return true}if(Notification.permission==="denied"){$("notifStatus").textContent="\u2717 Bloqueado";return false}$("notifStatus").textContent="Pendente";return true}
 function enableNotif(){if(!("Notification" in window)){toast("Notifica\u00e7\u00f5es n\u00e3o suportadas");return}Notification.requestPermission().then(function(perm){if(perm==="granted"){var t=$("cfgTime").value||"06:00";var parts=t.split(":");S.notifHour=parseInt(parts[0]);S.notifMinute=parseInt(parts[1]);S.notifEnabled=true;save();scheduleNotif();$("notifStatus").textContent="\u2713 "+t;toast("Lembrete ativado \u00e0s "+t)}else{$("notifStatus").textContent="\u2717 Bloqueado";toast("Permiss\u00e3o negada")}})}
 function disableNotif(){S.notifEnabled=false;save();if(window._notifTimer)clearInterval(window._notifTimer);$("notifStatus").textContent="Desativado";toast("Lembrete desativado")}
-function scheduleNotif(){if(!S.notifEnabled)return;if(window._notifTimer)clearInterval(window._notifTimer);window._notifTimer=setInterval(function(){if(!S.notifEnabled)return;var now=new Date();if(now.getHours()===S.notifHour&&now.getMinutes()===S.notifMinute&&now.getSeconds()<35){var td=d4dt(tUTC());if(td>=1&&td<=365){var e=E(cl(td,1,365));var reg=window._swReg;if(reg){reg.showNotification("Hora da Leitura \u2022 Dia "+td,{body:e.main+" \u00b7 "+pL(e),icon:"./icons/icon-192.png",tag:"lectio-daily",renotify:true})}else if(Notification.permission==="granted"){new Notification("Hora da Leitura \u2022 Dia "+td,{body:e.main})}}}},30000)}
+function scheduleNotif(){if(!S.notifEnabled)return;if(window._notifTimer)clearInterval(window._notifTimer);window._lastNotifKey="";window._notifTimer=setInterval(function(){if(!S.notifEnabled)return;var now=new Date();var key=now.getFullYear()+"-"+(now.getMonth()+1)+"-"+now.getDate()+"-"+now.getHours()+"-"+now.getMinutes();if(now.getHours()===S.notifHour&&now.getMinutes()===S.notifMinute&&window._lastNotifKey!==key){window._lastNotifKey=key;var td=d4dt(tUTC());if(td>=1&&td<=365){var e=E(cl(td,1,365));var reg=window._swReg;if(reg){reg.showNotification("Hora da Leitura \u2022 Dia "+td,{body:e.main+" \u00b7 "+pL(e),icon:"./icons/icon-192.png",tag:"lectio-daily",renotify:true})}else if(Notification.permission==="granted"){new Notification("Hora da Leitura \u2022 Dia "+td,{body:e.main})}}}},30000)}
 $("bNotifOn").onclick=enableNotif;
 $("bNotifOff").onclick=disableNotif;
 setTimeout(function(){checkNotifSupport();if(S.notifEnabled&&S.notifHour!=null){$("cfgTime").value=(S.notifHour<10?"0":"")+S.notifHour+":"+(S.notifMinute<10?"0":"")+S.notifMinute;$("notifStatus").textContent="\u2713 "+(S.notifHour<10?"0":"")+S.notifHour+":"+(S.notifMinute<10?"0":"")+S.notifMinute;scheduleNotif()}},500);
