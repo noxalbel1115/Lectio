@@ -1,163 +1,114 @@
 # Verificação Cruzada e Checagem de Consistência
 
-Execute uma verificação rigorosa da análise já realizada, buscando inconsistências, erros, lacunas e pontos que demandam revisão.
+Execute verificação rigorosa da análise já realizada, buscando inconsistências, erros, lacunas e pontos que demandam revisão.
 
 $ARGUMENTS
 
 ---
 
-## Protocolo de Verificação
-
-### CHECK 1 — Consistência Interna
-
-Verifique se a análise apresenta contradições internas:
+## CHECK 1 — Consistência Interna
 
 ```
-VERIFICAÇÃO DE CONSISTÊNCIA INTERNA
-=====================================
-
-| # | Item Verificado | Resultado | Observação |
-|---|----------------|-----------|------------|
-| 1 | Fatos narrados são coerentes entre si? | ✅/❌ | [detalhe] |
-| 2 | Datas e cronologia são consistentes? | ✅/❌ | [detalhe] |
-| 3 | Valores mencionados batem entre si? | ✅/❌ | [detalhe] |
-| 4 | Nomes das partes estão corretos em toda análise? | ✅/❌ | [detalhe] |
-| 5 | Conclusões são coerentes com a fundamentação? | ✅/❌ | [detalhe] |
-| 6 | Análise probatória condiz com a recomendação? | ✅/❌ | [detalhe] |
+CONSISTENCIA INTERNA
+=====================
+| # | Item | Resultado | Observacao |
+|---|------|-----------|------------|
+| 1 | Fatos narrados sao coerentes entre si? | OK/FALHA | [detalhe] |
+| 2 | Datas e cronologia sao consistentes? | OK/FALHA | [detalhe] |
+| 3 | Valores mencionados batem entre si? | OK/FALHA | [detalhe] |
+| 4 | Nomes das partes estao corretos em toda analise? | OK/FALHA | [detalhe] |
+| 5 | Conclusoes sao coerentes com a fundamentacao? | OK/FALHA | [detalhe] |
+| 6 | Analise probatoria condiz com a recomendacao? | OK/FALHA | [detalhe] |
 ```
 
-### CHECK 2 — Completude
-
-Verifique se todos os elementos necessários foram abordados:
+## CHECK 2 — Completude
 
 ```
-VERIFICAÇÃO DE COMPLETUDE
-===========================
-
 PEDIDOS:
-| Pedido | Analisado? | Prova examinada? | Conclusão? |
+| Pedido | Analisado? | Prova examinada? | Conclusao? |
 |--------|-----------|-----------------|------------|
-| [pedido 1] | ✅/❌ | ✅/❌ | ✅/❌ |
-| [pedido 2] | ✅/❌ | ✅/❌ | ✅/❌ |
 
 PRELIMINARES:
-| Preliminar | Analisada? | Conclusão? |
+| Preliminar | Analisada? | Conclusao? |
 |-----------|-----------|------------|
-| [prelim. 1] | ✅/❌ | ✅/❌ |
 
-ARGUMENTOS DAS PARTES:
-| Argumento | Enfrentado? | Ref. art. 489, §1º, IV? |
-|-----------|-----------|-------------------------|
-| [arg. autor 1] | ✅/❌ | [se não, por quê] |
-| [arg. réu 1] | ✅/❌ | [se não, por quê] |
+ARGUMENTOS DAS PARTES (art. 489, par. 1, IV, CPC):
+| Argumento | Enfrentado? | Se nao, por que? |
+|-----------|-----------|------------------|
 
 PROVAS:
 | Prova | Analisada? | Valorada? |
 |-------|-----------|-----------|
-| [prova 1] | ✅/❌ | ✅/❌ |
 ```
 
-### CHECK 3 — Referências aos Autos
-
-Verifique se todas as afirmações factuais têm referência:
+## CHECK 3 — Referencias aos Autos
 
 ```
-VERIFICAÇÃO DE REFERÊNCIAS
-============================
+Afirmacoes SEM referencia:
+1. "[afirmacao]" — PRECISA DE REFERENCIA
+2. "[afirmacao]" — PRECISA DE REFERENCIA
 
-Afirmações SEM referência aos autos:
-1. "[afirmação]" — ⚠️ PRECISA DE REFERÊNCIA
-2. "[afirmação]" — ⚠️ PRECISA DE REFERÊNCIA
-
-Referências que não puderam ser verificadas:
-1. "p. XX" — [motivo]
+Referencias que nao puderam ser verificadas:
+1. "[referencia]" — [motivo]
 ```
 
-### CHECK 4 — Correção Jurídica
-
-Verifique a correção do enquadramento jurídico:
+## CHECK 4 — Correcao Juridica
 
 ```
-VERIFICAÇÃO JURÍDICA
-=====================
-
-| Item | Status | Observação |
+| Item | Status | Observacao |
 |------|--------|------------|
-| Legislação citada está vigente? | ✅/❌/⚠️ | [detalhe] |
-| Dispositivos citados estão corretos? | ✅/❌/⚠️ | [detalhe] |
-| Jurisprudência é pertinente ao caso? | ✅/❌/⚠️ | [detalhe] |
-| Há jurisprudência contrária não citada? | ✅/❌/⚠️ | [detalhe] |
-| Ônus da prova foi corretamente distribuído? | ✅/❌/⚠️ | [detalhe] |
-| Prescrição/decadência foi verificada? | ✅/❌/⚠️ | [detalhe] |
+| Legislacao citada esta vigente? | OK/FALHA/VERIFICAR | [detalhe] |
+| Dispositivos citados estao corretos? | OK/FALHA/VERIFICAR | [detalhe] |
+| Jurisprudencia e pertinente? | OK/FALHA/VERIFICAR | [detalhe] |
+| Ha jurisprudencia contraria nao citada? | OK/FALHA/VERIFICAR | [detalhe] |
+| Onus da prova corretamente distribuido? | OK/FALHA/VERIFICAR | [detalhe] |
+| Prescricao/decadencia verificada? | OK/FALHA/VERIFICAR | [detalhe] |
 ```
 
-### CHECK 5 — Riscos Processuais
-
-Identifique riscos de nulidade ou reforma:
+## CHECK 5 — Riscos Processuais
 
 ```
-ANÁLISE DE RISCOS
-==================
-
 RISCO DE NULIDADE:
-| Possível Nulidade | Probabilidade | Impacto |
+| Possivel Nulidade | Probabilidade | Impacto |
 |-------------------|--------------|---------|
-| [descrição] | [Alta/Média/Baixa] | [Grave/Moderado/Leve] |
 
-RISCO DE REFORMA EM GRAU RECURSAL:
-| Ponto Vulnerável | Probabilidade de Reforma | Fundamento |
-|-----------------|-------------------------|------------|
-| [descrição] | [Alta/Média/Baixa] | [por quê] |
+RISCO DE REFORMA:
+| Ponto Vulneravel | Probabilidade | Fundamento |
+|-----------------|--------------|------------|
 
 CERCEAMENTO DE DEFESA:
-- [ ] Todas as provas requeridas foram produzidas ou indeferidas fundamentadamente?
-- [ ] As partes tiveram oportunidade de se manifestar sobre todos os documentos?
-- [ ] Houve audiência quando necessária?
+- Todas as provas requeridas foram produzidas ou indeferidas fundamentadamente?
+- As partes se manifestaram sobre todos os documentos?
+- Houve audiencia quando necessaria?
 ```
 
-### CHECK 6 — Alucinações
-
-Verifique especificamente se há informações que podem ter sido inventadas:
+## CHECK 6 — Anti-Alucinacao
 
 ```
-VERIFICAÇÃO ANTI-ALUCINAÇÃO
-=============================
-
-Para cada afirmação factual relevante:
-| Afirmação | Está nos autos? | Confiança |
+Para cada afirmacao factual relevante:
+| Afirmacao | Esta nos autos? | Confianca |
 |-----------|----------------|-----------|
-| [afirmação 1] | ✅ Confirmado p.XX / ❌ Não encontrado / ⚠️ Incerto | [Alta/Média/Baixa] |
-| [afirmação 2] | ... | ... |
 
-JURISPRUDÊNCIA CITADA — NECESSITA VERIFICAÇÃO:
-| Julgado | Verificável? | Ação Necessária |
-|---------|-------------|-----------------|
-| [citação 1] | [Sim/Não/Parcial] | [CONFIRMAR em repositório oficial] |
+JURISPRUDENCIA CITADA:
+| Citacao | Verificavel? | Acao |
+|---------|-------------|------|
 ```
 
-### SÍNTESE DA VERIFICAÇÃO
+## RESULTADO
 
 ```
-╔═══════════════════════════════════════════════════╗
-║         RESULTADO DA VERIFICAÇÃO                 ║
-╠═══════════════════════════════════════════════════╣
-║                                                   ║
-║ Consistência Interna:  [✅ OK / ⚠️ Atenção / ❌]  ║
-║ Completude:            [✅ OK / ⚠️ Atenção / ❌]  ║
-║ Referências:           [✅ OK / ⚠️ Atenção / ❌]  ║
-║ Correção Jurídica:     [✅ OK / ⚠️ Atenção / ❌]  ║
-║ Riscos Processuais:    [✅ OK / ⚠️ Atenção / ❌]  ║
-║ Anti-Alucinação:       [✅ OK / ⚠️ Atenção / ❌]  ║
-║                                                   ║
-║ RESULTADO GERAL: [APROVADO / APROVADO COM         ║
-║                   RESSALVAS / REVISÃO NECESSÁRIA] ║
-║                                                   ║
-║ ITENS QUE DEMANDAM CORREÇÃO:                      ║
-║ 1. [item]                                         ║
-║ 2. [item]                                         ║
-║                                                   ║
-║ ITENS QUE DEMANDAM ATENÇÃO DO MAGISTRADO:         ║
-║ 1. [item]                                         ║
-║ 2. [item]                                         ║
-╚═══════════════════════════════════════════════════╝
+Consistencia Interna:  [OK / ATENCAO / FALHA]
+Completude:            [OK / ATENCAO / FALHA]
+Referencias:           [OK / ATENCAO / FALHA]
+Correcao Juridica:     [OK / ATENCAO / FALHA]
+Riscos Processuais:    [OK / ATENCAO / FALHA]
+Anti-Alucinacao:       [OK / ATENCAO / FALHA]
+
+RESULTADO GERAL: [APROVADO / APROVADO COM RESSALVAS / REVISAO NECESSARIA]
+
+ITENS QUE DEMANDAM CORRECAO:
+1. [item]
+
+ITENS QUE DEMANDAM ATENCAO DO MAGISTRADO:
+1. [item]
 ```
