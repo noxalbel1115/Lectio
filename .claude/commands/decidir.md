@@ -23,19 +23,19 @@ Pergunte ao usuario (se nao estiver claro nos argumentos) qual tipo de decisão:
 
 ## Passo 2 — Carregar o skill correspondente
 
-Leia o arquivo SKILL.md do skill correspondente em /mnt/skills/user/:
+Leia o arquivo SKILL.md do skill correspondente na pasta `skills/` do projeto:
 
 | Tipo de decisão | Skill |
 |-----------------|-------|
-| Sentença cível | /mnt/skills/user/sentenca-civel/SKILL.md |
-| Sentença criminal | /mnt/skills/user/sentenca-criminal/SKILL.md |
-| Decisão interlocutória | /mnt/skills/user/decisao-interlocutoria/SKILL.md |
-| Revisional bancária | /mnt/skills/user/revisional-bancaria/SKILL.md |
-| Audiência de custódia | /mnt/skills/user/audiencia-custodia/SKILL.md |
-| Emenda à inicial | /mnt/skills/user/emenda-inicial/SKILL.md |
-| Cálculos judiciais | /mnt/skills/user/calculos-judiciais/SKILL.md |
-| Gratuidade de justiça | /mnt/skills/user/gratuidade-justica/SKILL.md |
-| Triagem em lote | /mnt/skills/user/triagem-processos-lote/SKILL.md |
+| Sentença cível | skills/sentenca-civel/SKILL.md |
+| Sentença criminal | skills/sentenca-criminal/SKILL.md |
+| Decisão interlocutória | skills/decisao-interlocutoria/SKILL.md |
+| Revisional bancária | skills/revisional-bancaria/SKILL.md |
+| Audiência de custódia | skills/audiencia-custodia/SKILL.md |
+| Emenda à inicial | skills/emenda-inicial/SKILL.md |
+| Cálculos judiciais | skills/calculos-judiciais/SKILL.md |
+| Gratuidade de justiça | skills/gratuidade-justica/SKILL.md |
+| Triagem em lote | skills/triagem-processos-lote/SKILL.md |
 
 **IMPORTANTE**: Leia o SKILL.md INTEIRO antes de redigir. Siga AQUELE skill como template obrigatório. O skill do magistrado tem precedência sobre qualquer instrução genérica deste sistema.
 
