@@ -1,8 +1,19 @@
-var CACHE_NAME = 'lectio-v3';
+var CACHE_NAME = 'lectio-v4';
 var URLS = [
   './',
   './index.html',
   './manifest.json',
+  './filosofia/',
+  './filosofia/index.html',
+  './filosofia/flashcards.html',
+  './filosofia/quiz.html',
+  './filosofia/podcast.html',
+  './filosofia/timeline.html',
+  './filosofia/glossario.html',
+  './filosofia/comparacoes.html',
+  './filosofia/mapa-mental.html',
+  './filosofia/resumos.html',
+  './filosofia/conexoes.html',
   'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap'
 ];
 

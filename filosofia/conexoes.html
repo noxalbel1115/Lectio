@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Conex&#245;es &#8212; Grafo de Influ&#234;ncias entre Fil&#243;sofos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap" rel="stylesheet">
+<style>
+:root{--bg:#faf6ef;--bg2:#f3ece0;--card:rgba(255,255,255,.72);--card-s:#fff;--ink:#2c1810;--ink2:#4a3428;--muted:#8b7d6b;--muted2:#b0a493;--burg:#6b2737;--burg-l:#8a3a4d;--burg-p:rgba(107,39,55,.06);--gold:#b8860b;--gold-l:#d4a843;--gold-p:rgba(184,134,11,.08);--ok:#3d7a47;--danger:#a83232;--brd:rgba(107,39,55,.10);--sh:0 1px 8px rgba(44,24,16,.06);--sh2:0 4px 20px rgba(44,24,16,.10);--r:14px;--df:'Cormorant Garamond',Georgia,serif;--bf:'Crimson Text',Georgia,serif;--mf:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+[data-theme="dark"]{--bg:#1a1410;--bg2:#231c15;--card:rgba(40,32,25,.85);--card-s:#2a2118;--ink:#e8ddd0;--ink2:#c4b8a8;--muted:#8b7d6b;--muted2:#6b5f50;--burg:#c4758a;--burg-l:#d4899b;--burg-p:rgba(196,117,138,.08);--gold:#d4a843;--gold-l:#e0bd60;--gold-p:rgba(212,168,67,.08);--ok:#6cb87a;--danger:#d47070;--brd:rgba(196,117,138,.12);--sh:0 1px 8px rgba(0,0,0,.2);--sh2:0 4px 20px rgba(0,0,0,.3)}
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(--ink);font-family:var(--bf);-webkit-font-smoothing:antialiased}
+canvas{display:block;width:100%;height:100%;cursor:grab}
+canvas:active{cursor:grabbing}
+
+.toolbar{position:fixed;top:0;left:0;right:0;z-index:10;display:flex;align-items:center;gap:8px;padding:8px 12px;background:var(--card);border-bottom:1px solid var(--brd);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.toolbar .back{font-size:13px;color:var(--muted);text-decoration:none;font-family:var(--bf);white-space:nowrap}
+.toolbar .back:hover{color:var(--burg)}
+.toolbar h1{margin:0;font-family:var(--df);font-size:18px;font-weight:700;color:var(--burg);white-space:nowrap}
+.toolbar .spacer{flex:1}
+.search-box{position:relative}
+.search-box input{width:140px;padding:5px 8px 5px 26px;border:1px solid var(--brd);border-radius:8px;background:var(--bg);color:var(--ink);font-family:var(--bf);font-size:13px;outline:none;transition:width .2s}
+.search-box input:focus{width:200px;border-color:var(--burg)}
+.search-box::before{content:'\1F50D';position:absolute;left:7px;top:50%;transform:translateY(-50%);font-size:12px;pointer-events:none}
+.search-results{position:absolute;top:100%;left:0;right:0;background:var(--card-s);border:1px solid var(--brd);border-radius:8px;margin-top:4px;max-height:200px;overflow-y:auto;display:none;box-shadow:var(--sh2);z-index:20}
+.search-results.show{display:block}
+.search-results div{padding:6px 10px;font-size:13px;cursor:pointer}
+.search-results div:hover{background:var(--burg-p)}
+.search-results div .school-tag{font-size:10px;color:var(--muted);margin-left:6px}
+.tb-btn{background:none;border:1px solid var(--brd);border-radius:8px;padding:4px 8px;cursor:pointer;font-size:13px;color:var(--ink);font-family:var(--bf)}
+.tb-btn:hover{background:var(--burg-p)}
+
+.filter-panel{position:fixed;top:48px;right:0;z-index:9;background:var(--card-s);border-left:1px solid var(--brd);border-bottom:1px solid var(--brd);border-radius:0 0 0 12px;padding:10px 14px;box-shadow:var(--sh2);display:none;max-height:calc(100vh - 60px);overflow-y:auto}
+.filter-panel.show{display:block}
+.filter-panel h3{margin:0 0 8px;font-family:var(--df);font-size:15px;font-weight:600;color:var(--burg)}
+.filter-panel label{display:flex;align-items:center;gap:6px;font-size:12px;padding:3px 0;cursor:pointer;white-space:nowrap}
+.filter-panel label .swatch{width:10px;height:10px;border-radius:3px;display:inline-block}
+.filter-panel input[type="checkbox"]{accent-color:var(--burg);margin:0}
+.filter-panel .edge-section{margin-top:10px;padding-top:8px;border-top:1px solid var(--brd)}
+
+.info-panel{position:fixed;bottom:0;left:0;right:0;z-index:10;background:var(--card-s);border-top:1px solid var(--brd);padding:14px 16px;transform:translateY(100%);transition:transform .25s ease;box-shadow:0 -4px 20px rgba(0,0,0,.1)}
+.info-panel.show{transform:translateY(0)}
+.info-panel .close-btn{position:absolute;top:8px;right:12px;background:none;border:none;font-size:18px;cursor:pointer;color:var(--muted);line-height:1}
+.info-panel .phil-name{font-family:var(--df);font-size:22px;font-weight:700;color:var(--burg);margin:0 0 2px}
+.info-panel .phil-dates{font-size:12px;color:var(--muted);margin-bottom:6px}
+.info-panel .phil-school{display:inline-block;font-size:11px;padding:2px 8px;border-radius:6px;margin-bottom:6px}
+.info-panel .phil-desc{font-size:14px;color:var(--ink2);line-height:1.5;margin:0}
+.info-panel .phil-connections{margin-top:8px;font-size:12px;color:var(--muted)}
+.info-panel .phil-connections span{color:var(--ink);font-weight:600}
+
+.legend{position:fixed;bottom:12px;left:12px;z-index:8;background:var(--card);border:1px solid var(--brd);border-radius:10px;padding:8px 12px;box-shadow:var(--sh);font-size:11px;max-width:160px}
+.legend h4{margin:0 0 4px;font-family:var(--df);font-size:13px;font-weight:600;color:var(--burg)}
+.legend .le{display:flex;align-items:center;gap:5px;padding:2px 0}
+.legend .le-line{width:20px;height:2px;border-radius:1px}
+.legend .le-dash{width:20px;height:0;border-top:2px dashed}
+
+@media(max-width:600px){
+  .toolbar h1{font-size:15px}
+  .search-box input{width:100px}
+  .search-box input:focus{width:140px}
+  .legend{display:none}
+  .info-panel{padding:12px}
+  .info-panel .phil-name{font-size:18px}
+}
+</style>
+</head>
+<body>
+
+<div class="toolbar">
+  <a href="index.html" class="back">&#8592; Filosofia</a>
+  <h1>Conex&#245;es</h1>
+  <div class="spacer"></div>
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Buscar fil&#243;sofo..." autocomplete="off">
+    <div class="search-results" id="searchResults"></div>
+  </div>
+  <button class="tb-btn" id="filterBtn" title="Filtros">&#9881;</button>
+  <button class="tb-btn" id="resetBtn" title="Resetar vis&#227;o">&#8634;</button>
+  <button class="tb-btn" id="thBtn" onclick="toggleTheme()" title="Alternar tema">&#9790;</button>
+</div>
+
+<div class="filter-panel" id="filterPanel"></div>
+
+<canvas id="graphCanvas"></canvas>
+
+<div class="info-panel" id="infoPanel">
+  <button class="close-btn" id="closeInfo">&times;</button>
+  <div class="phil-name" id="infoName"></div>
+  <div class="phil-dates" id="infoDates"></div>
+  <div class="phil-school" id="infoSchool"></div>
+  <p class="phil-desc" id="infoDesc"></p>
+  <div class="phil-connections" id="infoConn"></div>
+</div>
+
+<div class="legend">
+  <h4>Legenda</h4>
+  <div class="le"><div class="le-line" style="background:#888"></div> Influ&#234;ncia</div>
+  <div class="le"><div class="le-dash" style="border-color:#c0392b"></div> Oposi&#231;&#227;o</div>
+  <div class="le"><div style="width:10px;height:10px;border-radius:50%;background:var(--burg);margin-right:-3px"></div> Fil&#243;sofo</div>
+</div>
+<script>
+// === DATA ===
+var SCHOOLS=[
+  {id:"mileto",name:"Escola de Mileto",color:"#7B68EE"},
+  {id:"heraclito_s",name:"Heraclitismo",color:"#E74C3C"},
+  {id:"pitagoricos",name:"Pitag\u00f3ricos",color:"#9B59B6"},
+  {id:"eleatas",name:"Eleatas",color:"#3498DB"},
+  {id:"pluralistas",name:"Pluralistas",color:"#E67E22"},
+  {id:"atomistas",name:"Atomistas",color:"#95A5A6"},
+  {id:"sofistas",name:"Sofistas",color:"#F39C12"},
+  {id:"socraticos",name:"Socr\u00e1ticos",color:"#6b2737"},
+  {id:"academia",name:"Academia (Plat\u00e3o)",color:"#C0392B"},
+  {id:"liceu",name:"Liceu (Arist\u00f3teles)",color:"#27AE60"},
+  {id:"cinicos",name:"C\u00ednicos",color:"#8B4513"},
+  {id:"cirenaicos",name:"Cirenaicos",color:"#D2691E"},
+  {id:"megaricos",name:"Meg\u00e1ricos",color:"#CD853F"},
+  {id:"epicuristas",name:"Epicuristas",color:"#b8860b"},
+  {id:"estoicos",name:"Est\u00f3icos",color:"#2C3E50"},
+  {id:"ceticos",name:"C\u00e9ticos",color:"#7F8C8D"},
+  {id:"neoplatonicos",name:"Neooplat\u00f4nicos",color:"#8E44AD"}
+];
+
+var schoolMap={};
+SCHOOLS.forEach(function(s){schoolMap[s.id]=s});
+
+var NODES=[
+  {id:"tales",name:"Tales",dates:"c.624\u2013546 a.C.",school:"mileto",desc:"Iniciou a filosofia propondo a \u00e1gua como arch\u00e9 (princ\u00edpio origin\u00e1rio de todas as coisas)."},
+  {id:"anaximandro",name:"Anaximandro",dates:"c.610\u2013546 a.C.",school:"mileto",desc:"Prop\u00f4s o \u00e1peiron (infinito/indeterminado) como princ\u00edpio de todas as coisas."},
+  {id:"anaximenes",name:"Anax\u00edmenes",dates:"c.585\u2013528 a.C.",school:"mileto",desc:"Identificou o ar infinito como arch\u00e9, explicando transforma\u00e7\u00f5es por condensa\u00e7\u00e3o e rarefa\u00e7\u00e3o."},
+  {id:"heraclito",name:"Her\u00e1clito",dates:"c.535\u2013475 a.C.",school:"heraclito_s",desc:"Fil\u00f3sofo do devir: tudo flui (panta rhei), harmonia dos contr\u00e1rios, fogo como princ\u00edpio."},
+  {id:"pitagoras",name:"Pit\u00e1goras",dates:"c.570\u2013495 a.C.",school:"pitagoricos",desc:"Fundou escola m\u00edstico-filos\u00f3fica; o n\u00famero como princ\u00edpio de todas as coisas; harmonia e cosmo."},
+  {id:"filolau",name:"Filolau",dates:"c.470\u2013385 a.C.",school:"pitagoricos",desc:"Pitag\u00f3rico que associou os quatro elementos aos primeiros s\u00f3lidos geom\u00e9tricos."},
+  {id:"xenofanes",name:"Xen\u00f3fanes",dates:"c.570\u2013475 a.C.",school:"eleatas",desc:"Cr\u00edtico do antropomorfismo religioso; Deus \u00e9 o cosmo; precursor dos Eleatas."},
+  {id:"parmenides",name:"Parm\u00eanides",dates:"c.515\u2013450 a.C.",school:"eleatas",desc:"Fundador da ontologia: o ser \u00e9 e n\u00e3o pode n\u00e3o ser; o ser \u00e9 ingerado, incorrupt\u00edvel, im\u00f3vel, uno."},
+  {id:"zenao_eleia",name:"Zen\u00e3o de Eleia",dates:"c.490\u2013430 a.C.",school:"eleatas",desc:"Defensor de Parm\u00eanides com paradoxos c\u00e9lebres (Aquiles e a tartaruga, a flecha)."},
+  {id:"melisso",name:"Melisso",dates:"c.470\u2013? a.C.",school:"eleatas",desc:"Eleata que estendeu o ser parmen\u00eddeo ao infinito espacial e temporal."},
+  {id:"empedocles",name:"Emp\u00e9docles",dates:"c.490\u2013430 a.C.",school:"pluralistas",desc:"Quatro ra\u00edzes (terra, \u00e1gua, ar, fogo) movidas por Amor e \u00d3dio. Pluralista."},
+  {id:"anaxagoras",name:"Anax\u00e1goras",dates:"c.500\u2013428 a.C.",school:"pluralistas",desc:"Homeomerias como sementes de tudo; Nous (Intelig\u00eancia) como for\u00e7a ordenadora."},
+  {id:"leucipo",name:"Leucipo",dates:"c.480\u2013? a.C.",school:"atomistas",desc:"Criador do atomismo: \u00e1tomos e vazio como princ\u00edpios de tudo."},
+  {id:"democrito",name:"Dem\u00f3crito",dates:"c.460\u2013370 a.C.",school:"atomistas",desc:"Sistematizou o atomismo; \u00e1tomos diferem em forma, ordem e posi\u00e7\u00e3o."},
+  {id:"protagoras",name:"Prot\u00e1goras",dates:"c.490\u2013420 a.C.",school:"sofistas",desc:"O homem \u00e9 a medida de todas as coisas. Relativismo e ret\u00f3rica."},
+  {id:"gorgias",name:"G\u00f3rgias",dates:"c.485\u2013380 a.C.",school:"sofistas",desc:"Niilista ontol\u00f3gico e mestre da ret\u00f3rica; nada existe, ou n\u00e3o pode ser conhecido."},
+  {id:"socrates",name:"S\u00f3crates",dates:"c.470\u2013399 a.C.",school:"socraticos",desc:"Virada antropol\u00f3gica: conhece-te a ti mesmo. Dial\u00e9tica, ironia, maieutica."},
+  {id:"antistenes",name:"Ant\u00edstenes",dates:"c.445\u2013365 a.C.",school:"cinicos",desc:"Disc\u00edpulo de S\u00f3crates, fundador do cinismo; virtude como \u00fanico bem."},
+  {id:"diogenes",name:"Di\u00f3genes",dates:"c.412\u2013323 a.C.",school:"cinicos",desc:"C\u00ednico radical; vida conforme a natureza, rejei\u00e7\u00e3o das conven\u00e7\u00f5es sociais."},
+  {id:"aristipo",name:"Aristipo",dates:"c.435\u2013356 a.C.",school:"cirenaicos",desc:"Disc\u00edpulo de S\u00f3crates; fundou os Cirenaicos; prazer como bem supremo."},
+  {id:"euclides_meg",name:"Euclides de M\u00e9gara",dates:"c.435\u2013365 a.C.",school:"megaricos",desc:"Disc\u00edpulo de S\u00f3crates e Parm\u00eanides; fundou a escola Meg\u00e1rica."},
+  {id:"platao",name:"Plat\u00e3o",dates:"c.428\u2013348 a.C.",school:"academia",desc:"Teoria das Formas/Ideias; dualismo sens\u00edvel-intelig\u00edvel; fundou a Academia."},
+  {id:"aristoteles",name:"Arist\u00f3teles",dates:"c.384\u2013322 a.C.",school:"liceu",desc:"Cr\u00edtico das Formas de Plat\u00e3o; hilemorfismo, ato/pot\u00eancia, quatro causas; fundou o Liceu."},
+  {id:"epicuro",name:"Epicuro",dates:"c.341\u2013270 a.C.",school:"epicuristas",desc:"Atomismo \u00e9tico; prazer (ataraxia) como aus\u00eancia de dor; o Jardim."},
+  {id:"zenao_citio",name:"Zen\u00e3o de C\u00edtio",dates:"c.334\u2013262 a.C.",school:"estoicos",desc:"Fundador do estoicismo; viver conforme a natureza/raz\u00e3o; virtude como \u00fanico bem."},
+  {id:"crisipo",name:"Crisipo",dates:"c.279\u2013206 a.C.",school:"estoicos",desc:"Segundo fundador do estoicismo; sistematizou a l\u00f3gica e f\u00edsica est\u00f3ica."},
+  {id:"panecio",name:"Pan\u00e9cio",dates:"c.185\u2013109 a.C.",school:"estoicos",desc:"Estoicismo m\u00e9dio; aproximou o estoicismo de Roma e do plat\u00f4nismo."},
+  {id:"posidonio",name:"Posid\u00f4nio",dates:"c.135\u201351 a.C.",school:"estoicos",desc:"Estoicismo m\u00e9dio; enciclopedista, combinou estoicismo com plat\u00f4nismo."},
+  {id:"seneca",name:"S\u00eaneca",dates:"c.4 a.C.\u201365 d.C.",school:"estoicos",desc:"Est\u00f3ico romano; conselheiro de Nero; cartas morais e di\u00e1logos filos\u00f3ficos."},
+  {id:"epicteto",name:"Epicteto",dates:"c.50\u2013135 d.C.",school:"estoicos",desc:"Est\u00f3ico ex-escravo; Encheiridion; distinguir o que depende e o que n\u00e3o depende de n\u00f3s."},
+  {id:"marco_aurelio",name:"Marco Aur\u00e9lio",dates:"121\u2013180 d.C.",school:"estoicos",desc:"Imperador-fil\u00f3sofo; Medita\u00e7\u00f5es; \u00faltimo grande est\u00f3ico."},
+  {id:"pirro",name:"Pirro",dates:"c.365\u2013275 a.C.",school:"ceticos",desc:"Fundador do ceticismo pirrr\u00f4nico; suspens\u00e3o do ju\u00edzo (epoch\u00e9)."},
+  {id:"sexto_empirico",name:"Sexto Emp\u00edrico",dates:"c.160\u2013210 d.C.",school:"ceticos",desc:"Sistematizou o ceticismo pirr\u00f4nico; Hipotiposes Pirr\u00f4nicas."},
+  {id:"filon_larissa",name:"F\u00edlon de Larissa",dates:"c.154\u201384 a.C.",school:"academia",desc:"\u00daltimo escol\u00e1rca da Academia; ceticismo acad\u00eamico moderado."},
+  {id:"plotino",name:"Plotino",dates:"204\u2013270 d.C.",school:"neoplatonicos",desc:"Fundador do neoplatonismo; Uno, Nous e Alma; emana\u00e7\u00e3o e retorno."},
+  {id:"porfirio",name:"Porf\u00edrio",dates:"c.234\u2013305 d.C.",school:"neoplatonicos",desc:"Disc\u00edpulo de Plotino; editou as En\u00e9adas; Is\u00e1goge (introdu\u00e7\u00e3o \u00e0s Categorias)."},
+  {id:"proclo",name:"Proclo",dates:"412\u2013485 d.C.",school:"neoplatonicos",desc:"\u00daltimo grande neooplat\u00f4nico; sistematizou a dial\u00e9tica da emana\u00e7\u00e3o."}
+];
+
+var EDGES=[
+  {from:"tales",to:"anaximandro",type:"influence",label:"mestre \u2192 disc\u00edpulo"},
+  {from:"anaximandro",to:"anaximenes",type:"influence",label:"mestre \u2192 disc\u00edpulo"},
+  {from:"tales",to:"heraclito",type:"influence",label:"tradi\u00e7\u00e3o j\u00f4nica"},
+  {from:"anaximandro",to:"heraclito",type:"influence",label:"dinamismo do princ\u00edpio"},
+  {from:"pitagoras",to:"filolau",type:"influence",label:"escola pitag\u00f3rica"},
+  {from:"xenofanes",to:"parmenides",type:"influence",label:"cr\u00edtica teol\u00f3gica \u2192 ontologia"},
+  {from:"parmenides",to:"zenao_eleia",type:"influence",label:"mestre \u2192 disc\u00edpulo"},
+  {from:"parmenides",to:"melisso",type:"influence",label:"continuador eleata"},
+  {from:"heraclito",to:"parmenides",type:"opposition",label:"devir vs ser"},
+  {from:"parmenides",to:"empedocles",type:"influence",label:"ser incriado \u2192 4 ra\u00edzes"},
+  {from:"pitagoras",to:"empedocles",type:"influence",label:"inf. pitag\u00f3rica"},
+  {from:"parmenides",to:"anaxagoras",type:"influence",label:"nada nasce do nada"},
+  {from:"parmenides",to:"leucipo",type:"influence",label:"\u00e1tomos como seres plenos"},
+  {from:"leucipo",to:"democrito",type:"influence",label:"mestre \u2192 disc\u00edpulo"},
+  {from:"parmenides",to:"gorgias",type:"influence",label:"invers\u00e3o do eleatismo"},
+  {from:"anaxagoras",to:"socrates",type:"influence",label:"inf. do Nous"},
+  {from:"socrates",to:"protagoras",type:"opposition",label:"universalismo vs relativismo"},
+  {from:"socrates",to:"gorgias",type:"opposition",label:"dial\u00e9tica vs ret\u00f3rica"},
+  {from:"socrates",to:"antistenes",type:"influence",label:"mestre \u2192 disc\u00edpulo"},
+  {from:"socrates",to:"aristipo",type:"influence",label:"mestre \u2192 disc\u00edpulo"},
+  {from:"socrates",to:"euclides_meg",type:"influence",label:"mestre \u2192 disc\u00edpulo"},
+  {from:"socrates",to:"platao",type:"influence",label:"mestre \u2192 disc\u00edpulo"},
+  {from:"antistenes",to:"diogenes",type:"influence",label:"mestre \u2192 disc\u00edpulo"},
+  {from:"pitagoras",to:"platao",type:"influence",label:"n\u00fameros e Formas"},
+  {from:"parmenides",to:"platao",type:"influence",label:"inf. no intelig\u00edvel"},
+  {from:"heraclito",to:"platao",type:"influence",label:"inf. no sens\u00edvel"},
+  {from:"platao",to:"aristoteles",type:"influence",label:"mestre \u2192 disc\u00edpulo"},
+  {from:"aristoteles",to:"platao",type:"opposition",label:"cr\u00edtica \u00e0s Formas"},
+  {from:"democrito",to:"epicuro",type:"influence",label:"atomismo f\u00edsico"},
+  {from:"heraclito",to:"zenao_citio",type:"influence",label:"logos e fogo c\u00f3smico"},
+  {from:"antistenes",to:"zenao_citio",type:"influence",label:"inf. c\u00ednica"},
+  {from:"diogenes",to:"zenao_citio",type:"influence",label:"inf. c\u00ednica"},
+  {from:"zenao_citio",to:"crisipo",type:"influence",label:"sucess\u00e3o est\u00f3ica"},
+  {from:"crisipo",to:"panecio",type:"influence",label:"estoicismo m\u00e9dio"},
+  {from:"panecio",to:"posidonio",type:"influence",label:"sucess\u00e3o est\u00f3ica"},
+  {from:"posidonio",to:"seneca",type:"influence",label:"estoicismo romano"},
+  {from:"crisipo",to:"epicteto",type:"influence",label:"doutrina est\u00f3ica"},
+  {from:"epicteto",to:"marco_aurelio",type:"influence",label:"inf. direta"},
+  {from:"pirro",to:"sexto_empirico",type:"influence",label:"tradi\u00e7\u00e3o pirr\u00f4nica"},
+  {from:"platao",to:"filon_larissa",type:"influence",label:"Academia"},
+  {from:"platao",to:"plotino",type:"influence",label:"reinterpreta\u00e7\u00e3o"},
+  {from:"aristoteles",to:"plotino",type:"influence",label:"inf. aristot\u00e9lica"},
+  {from:"pitagoras",to:"plotino",type:"influence",label:"inf. neoopitag\u00f3rica"},
+  {from:"plotino",to:"porfirio",type:"influence",label:"mestre \u2192 disc\u00edpulo"},
+  {from:"porfirio",to:"proclo",type:"influence",label:"tradi\u00e7\u00e3o neooplat\u00f4nica"},
+  {from:"empedocles",to:"aristoteles",type:"influence",label:"4 causas materiais"},
+  {from:"anaxagoras",to:"aristoteles",type:"influence",label:"causa eficiente"},
+  {from:"seneca",to:"epicteto",type:"influence",label:"contempor\u00e2neos est\u00f3icos"},
+  {from:"euclides_meg",to:"parmenides",type:"influence",label:"inf. eleata"}
+];
+// === STATE ===
+var canvas=document.getElementById('graphCanvas');
+var ctx=canvas.getContext('2d');
+var dpr=window.devicePixelRatio||1;
+var W,H;
+var nodes=[],nodeMap={},edges=[];
+var camera={x:0,y:0,zoom:1};
+var drag={active:false,node:null,startX:0,startY:0,camX:0,camY:0,moved:false};
+var selectedNode=null;
+var visibleSchools={};
+var showInfluence=true,showOpposition=true;
+var simRunning=true,simTicks=0,maxTicks=600;
+
+function initGraph(){
+  SCHOOLS.forEach(function(s){visibleSchools[s.id]=true});
+  NODES.forEach(function(n,i){
+    var angle=i/NODES.length*Math.PI*2;
+    var radius=250+Math.random()*100;
+    var node={
+      id:n.id,name:n.name,dates:n.dates,school:n.school,desc:n.desc,
+      color:schoolMap[n.school]?schoolMap[n.school].color:'#888',
+      x:Math.cos(angle)*radius+(Math.random()-0.5)*80,
+      y:Math.sin(angle)*radius+(Math.random()-0.5)*80,
+      vx:0,vy:0,
+      radius:0,
+      pinned:false
+    };
+    nodes.push(node);
+    nodeMap[node.id]=node;
+  });
+  EDGES.forEach(function(e){
+    if(nodeMap[e.from]&&nodeMap[e.to]){
+      edges.push({from:e.from,to:e.to,type:e.type,label:e.label});
+    }
+  });
+}
+
+function resize(){
+  W=window.innerWidth;H=window.innerHeight;
+  canvas.width=W*dpr;canvas.height=H*dpr;
+  canvas.style.width=W+'px';canvas.style.height=H+'px';
+  ctx.setTransform(dpr,0,0,dpr,0,0);
+}
+
+// === PHYSICS ===
+function simulate(){
+  if(!simRunning)return;
+  var repulsion=6000;
+  var attraction=0.008;
+  var idealLen=160;
+  var gravity=0.0008;
+  var damping=0.88;
+  var cx=0,cy=0;
+
+  for(var i=0;i<nodes.length;i++){
+    if(!visibleSchools[nodes[i].school])continue;
+    cx+=nodes[i].x;cy+=nodes[i].y;
+  }
+  var vc=0;
+  for(var i=0;i<nodes.length;i++){if(visibleSchools[nodes[i].school])vc++}
+  if(vc>0){cx/=vc;cy/=vc}
+
+  for(var i=0;i<nodes.length;i++){
+    if(!visibleSchools[nodes[i].school])continue;
+    if(nodes[i].pinned)continue;
+    for(var j=i+1;j<nodes.length;j++){
+      if(!visibleSchools[nodes[j].school])continue;
+      var dx=nodes[j].x-nodes[i].x;
+      var dy=nodes[j].y-nodes[i].y;
+      var dist=Math.sqrt(dx*dx+dy*dy)||1;
+      var force=repulsion/(dist*dist);
+      var fx=force*dx/dist;
+      var fy=force*dy/dist;
+      if(!nodes[i].pinned){nodes[i].vx-=fx;nodes[i].vy-=fy}
+      if(!nodes[j].pinned){nodes[j].vx+=fx;nodes[j].vy+=fy}
+    }
+    // Gravity toward center
+    nodes[i].vx-=(nodes[i].x-cx)*gravity;
+    nodes[i].vy-=(nodes[i].y-cy)*gravity;
+  }
+
+  for(var e=0;e<edges.length;e++){
+    var a=nodeMap[edges[e].from],b=nodeMap[edges[e].to];
+    if(!a||!b)continue;
+    if(!visibleSchools[a.school]||!visibleSchools[b.school])continue;
+    var dx=b.x-a.x,dy=b.y-a.y;
+    var dist=Math.sqrt(dx*dx+dy*dy)||1;
+    var force=(dist-idealLen)*attraction;
+    var fx=force*dx/dist;
+    var fy=force*dy/dist;
+    if(!a.pinned){a.vx+=fx;a.vy+=fy}
+    if(!b.pinned){b.vx-=fx;b.vy-=fy}
+  }
+
+  for(var i=0;i<nodes.length;i++){
+    if(nodes[i].pinned)continue;
+    if(!visibleSchools[nodes[i].school])continue;
+    nodes[i].vx*=damping;
+    nodes[i].vy*=damping;
+    nodes[i].x+=nodes[i].vx;
+    nodes[i].y+=nodes[i].vy;
+  }
+
+  simTicks++;
+  if(simTicks>maxTicks){
+    var totalV=0;
+    for(var i=0;i<nodes.length;i++){totalV+=Math.abs(nodes[i].vx)+Math.abs(nodes[i].vy)}
+    if(totalV/nodes.length<0.1)simRunning=false;
+  }
+}
+
+// === RENDERING ===
+function screenX(wx){return(wx-camera.x)*camera.zoom+W/2}
+function screenY(wy){return(wy-camera.y)*camera.zoom+H/2}
+function worldX(sx){return(sx-W/2)/camera.zoom+camera.x}
+function worldY(sy){return(sy-H/2)/camera.zoom+camera.y}
+
+function drawArrow(x1,y1,x2,y2,color,dashed,nodeR){
+  var dx=x2-x1,dy=y2-y1;
+  var dist=Math.sqrt(dx*dx+dy*dy)||1;
+  var ux=dx/dist,uy=dy/dist;
+  var ex=x2-ux*nodeR,ey=y2-uy*nodeR;
+  var sx=x1+ux*(nodeR*0.5),sy=y1+uy*(nodeR*0.5);
+
+  ctx.beginPath();
+  if(dashed)ctx.setLineDash([6,4]);
+  else ctx.setLineDash([]);
+  ctx.moveTo(sx,sy);ctx.lineTo(ex,ey);
+  ctx.strokeStyle=color;
+  ctx.lineWidth=1.5/camera.zoom<0.5?0.5:1.5;
+  ctx.globalAlpha=0.5;
+  ctx.stroke();
+  ctx.setLineDash([]);
+
+  // Arrowhead
+  var aLen=8,aW=4;
+  ctx.beginPath();
+  ctx.moveTo(ex,ey);
+  ctx.lineTo(ex-ux*aLen+uy*aW,ey-uy*aLen-ux*aW);
+  ctx.lineTo(ex-ux*aLen-uy*aW,ey-uy*aLen+ux*aW);
+  ctx.closePath();
+  ctx.fillStyle=color;
+  ctx.fill();
+  ctx.globalAlpha=1;
+}
+
+function draw(){
+  ctx.clearRect(0,0,W,H);
+  ctx.save();
+
+  var isDark=document.documentElement.getAttribute('data-theme')==='dark';
+  var bgCol=isDark?'#1a1410':'#faf6ef';
+  ctx.fillStyle=bgCol;
+  ctx.fillRect(0,0,W,H);
+
+  // Draw edges
+  for(var i=0;i<edges.length;i++){
+    var e=edges[i];
+    var a=nodeMap[e.from],b=nodeMap[e.to];
+    if(!a||!b)continue;
+    if(!visibleSchools[a.school]||!visibleSchools[b.school])continue;
+    if(e.type==='influence'&&!showInfluence)continue;
+    if(e.type==='opposition'&&!showOpposition)continue;
+
+    var ax=screenX(a.x),ay=screenY(a.y);
+    var bx=screenX(b.x),by=screenY(b.y);
+    var nodeR=(selectedNode?14:12)*camera.zoom;
+
+    var isHighlighted=selectedNode&&(e.from===selectedNode.id||e.to===selectedNode.id);
+    var edgeColor;
+    if(e.type==='opposition'){
+      edgeColor=isDark?'#d47070':'#c0392b';
+    }else{
+      edgeColor=isDark?'#8b7d6b':'#999';
+    }
+
+    if(selectedNode&&!isHighlighted){
+      ctx.globalAlpha=0.08;
+    }
+
+    drawArrow(ax,ay,bx,by,isHighlighted?(e.type==='opposition'?(isDark?'#ff8888':'#e74c3c'):'#b8860b'):edgeColor,e.type==='opposition',nodeR);
+    ctx.globalAlpha=1;
+
+    // Edge label on hover/select
+    if(isHighlighted&&camera.zoom>0.5){
+      var mx=(ax+bx)/2,my=(ay+by)/2;
+      ctx.font='10px '+getComputedStyle(document.documentElement).getPropertyValue('--bf');
+      ctx.fillStyle=isDark?'#c4b8a8':'#4a3428';
+      ctx.textAlign='center';
+      ctx.globalAlpha=0.85;
+      ctx.fillText(e.label,mx,my-6);
+      ctx.globalAlpha=1;
+    }
+  }
+
+  // Draw nodes
+  for(var i=0;i<nodes.length;i++){
+    var n=nodes[i];
+    if(!visibleSchools[n.school])continue;
+
+    var sx=screenX(n.x),sy=screenY(n.y);
+    var r=12*camera.zoom;
+    n.radius=r;
+
+    var isSelected=selectedNode&&selectedNode.id===n.id;
+    var isConnected=false;
+    if(selectedNode&&!isSelected){
+      for(var e=0;e<edges.length;e++){
+        if((edges[e].from===selectedNode.id&&edges[e].to===n.id)||(edges[e].to===selectedNode.id&&edges[e].from===n.id)){
+          isConnected=true;break;
+        }
+      }
+    }
+
+    if(selectedNode&&!isSelected&&!isConnected){
+      ctx.globalAlpha=0.15;
+    }
+
+    // Node circle
+    ctx.beginPath();
+    ctx.arc(sx,sy,r,0,Math.PI*2);
+    ctx.fillStyle=n.color;
+    ctx.fill();
+
+    if(isSelected){
+      ctx.lineWidth=3;
+      ctx.strokeStyle=isDark?'#e8ddd0':'#2c1810';
+      ctx.stroke();
+    }else if(isConnected){
+      ctx.lineWidth=2;
+      ctx.strokeStyle=isDark?'#c4b8a8':'#4a3428';
+      ctx.stroke();
+    }
+
+    // Label
+    if(camera.zoom>0.35){
+      var fontSize=Math.max(10,Math.min(14,12*camera.zoom));
+      ctx.font=(isSelected?'700 ':'500 ')+fontSize+'px '+getComputedStyle(document.documentElement).getPropertyValue('--df');
+      ctx.textAlign='center';
+      ctx.textBaseline='top';
+      ctx.fillStyle=isDark?'#e8ddd0':'#2c1810';
+
+      // Text background
+      var tw=ctx.measureText(n.name).width;
+      ctx.fillStyle=bgCol;
+      ctx.globalAlpha=selectedNode&&!isSelected&&!isConnected?0.15:0.75;
+      ctx.fillRect(sx-tw/2-3,sy+r+2,tw+6,fontSize+4);
+      ctx.globalAlpha=selectedNode&&!isSelected&&!isConnected?0.15:1;
+
+      ctx.fillStyle=isDark?'#e8ddd0':'#2c1810';
+      ctx.fillText(n.name,sx,sy+r+4);
+    }
+
+    ctx.globalAlpha=1;
+  }
+
+  ctx.restore();
+}
+
+// === INTERACTION ===
+function getNodeAt(mx,my){
+  var wx=worldX(mx),wy=worldY(my);
+  var best=null,bestDist=Infinity;
+  for(var i=nodes.length-1;i>=0;i--){
+    if(!visibleSchools[nodes[i].school])continue;
+    var dx=nodes[i].x-wx,dy=nodes[i].y-wy;
+    var dist=Math.sqrt(dx*dx+dy*dy);
+    if(dist<20/camera.zoom&&dist<bestDist){
+      best=nodes[i];bestDist=dist;
+    }
+  }
+  return best;
+}
+
+function showInfo(node){
+  selectedNode=node;
+  var p=document.getElementById('infoPanel');
+  document.getElementById('infoName').textContent=node.name;
+  document.getElementById('infoDates').textContent=node.dates;
+  var sch=schoolMap[node.school];
+  var schEl=document.getElementById('infoSchool');
+  schEl.textContent=sch?sch.name:node.school;
+  schEl.style.background=node.color+'22';
+  schEl.style.color=node.color;
+  document.getElementById('infoDesc').textContent=node.desc;
+
+  // Connections
+  var conns=[];
+  edges.forEach(function(e){
+    if(e.from===node.id){
+      var t=nodeMap[e.to];
+      if(t)conns.push('\u2192 '+t.name+' ('+e.label+')');
+    }
+    if(e.to===node.id){
+      var f=nodeMap[e.from];
+      if(f)conns.push('\u2190 '+f.name+' ('+e.label+')');
+    }
+  });
+  document.getElementById('infoConn').innerHTML='<span>'+conns.length+' conex\u00f5es:</span> '+conns.join('; ');
+  p.classList.add('show');
+}
+
+function hideInfo(){
+  selectedNode=null;
+  document.getElementById('infoPanel').classList.remove('show');
+}
+
+canvas.addEventListener('mousedown',function(ev){
+  var rect=canvas.getBoundingClientRect();
+  var mx=ev.clientX-rect.left,my=ev.clientY-rect.top;
+  var node=getNodeAt(mx,my);
+  drag.active=true;
+  drag.moved=false;
+  drag.startX=mx;drag.startY=my;
+  if(node){
+    drag.node=node;
+    node.pinned=true;
+    simRunning=true;simTicks=0;
+  }else{
+    drag.node=null;
+    drag.camX=camera.x;drag.camY=camera.y;
+  }
+});
+
+canvas.addEventListener('mousemove',function(ev){
+  var rect=canvas.getBoundingClientRect();
+  var mx=ev.clientX-rect.left,my=ev.clientY-rect.top;
+  if(!drag.active){
+    var node=getNodeAt(mx,my);
+    canvas.style.cursor=node?'pointer':'grab';
+    return;
+  }
+  var dx=mx-drag.startX,dy=my-drag.startY;
+  if(Math.abs(dx)>3||Math.abs(dy)>3)drag.moved=true;
+  if(drag.node){
+    drag.node.x=worldX(mx);
+    drag.node.y=worldY(my);
+  }else{
+    camera.x=drag.camX-dx/camera.zoom;
+    camera.y=drag.camY-dy/camera.zoom;
+  }
+});
+
+canvas.addEventListener('mouseup',function(ev){
+  if(drag.node){
+    drag.node.pinned=false;
+  }
+  if(!drag.moved){
+    var rect=canvas.getBoundingClientRect();
+    var mx=ev.clientX-rect.left,my=ev.clientY-rect.top;
+    var node=getNodeAt(mx,my);
+    if(node){showInfo(node)}
+    else{hideInfo()}
+  }
+  drag.active=false;drag.node=null;
+});
+
+canvas.addEventListener('wheel',function(ev){
+  ev.preventDefault();
+  var rect=canvas.getBoundingClientRect();
+  var mx=ev.clientX-rect.left,my=ev.clientY-rect.top;
+  var wx=worldX(mx),wy=worldY(my);
+  var delta=ev.deltaY>0?0.9:1.1;
+  camera.zoom=Math.max(0.15,Math.min(5,camera.zoom*delta));
+  camera.x=wx-(mx-W/2)/camera.zoom;
+  camera.y=wy-(my-H/2)/camera.zoom;
+},{passive:false});
+
+// Touch support
+var touches={};
+canvas.addEventListener('touchstart',function(ev){
+  ev.preventDefault();
+  if(ev.touches.length===1){
+    var t=ev.touches[0];
+    var rect=canvas.getBoundingClientRect();
+    var mx=t.clientX-rect.left,my=t.clientY-rect.top;
+    var node=getNodeAt(mx,my);
+    drag.active=true;drag.moved=false;
+    drag.startX=mx;drag.startY=my;
+    if(node){drag.node=node;node.pinned=true;simRunning=true;simTicks=0}
+    else{drag.node=null;drag.camX=camera.x;drag.camY=camera.y}
+  }
+  if(ev.touches.length===2){
+    touches.dist=Math.hypot(ev.touches[0].clientX-ev.touches[1].clientX,ev.touches[0].clientY-ev.touches[1].clientY);
+    touches.zoom=camera.zoom;
+  }
+},{passive:false});
+
+canvas.addEventListener('touchmove',function(ev){
+  ev.preventDefault();
+  if(ev.touches.length===1&&drag.active){
+    var t=ev.touches[0];
+    var rect=canvas.getBoundingClientRect();
+    var mx=t.clientX-rect.left,my=t.clientY-rect.top;
+    var dx=mx-drag.startX,dy=my-drag.startY;
+    if(Math.abs(dx)>3||Math.abs(dy)>3)drag.moved=true;
+    if(drag.node){drag.node.x=worldX(mx);drag.node.y=worldY(my)}
+    else{camera.x=drag.camX-dx/camera.zoom;camera.y=drag.camY-dy/camera.zoom}
+  }
+  if(ev.touches.length===2){
+    var d=Math.hypot(ev.touches[0].clientX-ev.touches[1].clientX,ev.touches[0].clientY-ev.touches[1].clientY);
+    camera.zoom=Math.max(0.15,Math.min(5,touches.zoom*(d/touches.dist)));
+  }
+},{passive:false});
+
+canvas.addEventListener('touchend',function(ev){
+  if(drag.node)drag.node.pinned=false;
+  if(!drag.moved&&drag.active){
+    var rect=canvas.getBoundingClientRect();
+    if(ev.changedTouches.length>0){
+      var t=ev.changedTouches[0];
+      var mx=t.clientX-rect.left,my=t.clientY-rect.top;
+      var node=getNodeAt(mx,my);
+      if(node)showInfo(node);else hideInfo();
+    }
+  }
+  drag.active=false;drag.node=null;
+});
+
+// === SEARCH ===
+var searchInput=document.getElementById('searchInput');
+var searchResults=document.getElementById('searchResults');
+
+searchInput.addEventListener('input',function(){
+  var q=this.value.toLowerCase().trim();
+  searchResults.innerHTML='';
+  if(q.length<1){searchResults.classList.remove('show');return}
+  var matches=NODES.filter(function(n){return n.name.toLowerCase().indexOf(q)!==-1});
+  if(matches.length===0){searchResults.classList.remove('show');return}
+  matches.slice(0,8).forEach(function(n){
+    var d=document.createElement('div');
+    var sch=schoolMap[n.school];
+    d.innerHTML=n.name+'<span class="school-tag">'+(sch?sch.name:'')+'</span>';
+    d.addEventListener('click',function(){
+      var node=nodeMap[n.id];
+      if(node){
+        camera.x=node.x;camera.y=node.y;
+        camera.zoom=1.5;
+        showInfo(node);
+      }
+      searchResults.classList.remove('show');
+      searchInput.value='';
+    });
+    searchResults.appendChild(d);
+  });
+  searchResults.classList.add('show');
+});
+
+searchInput.addEventListener('blur',function(){
+  setTimeout(function(){searchResults.classList.remove('show')},200);
+});
+
+// === FILTER PANEL ===
+function buildFilterPanel(){
+  var fp=document.getElementById('filterPanel');
+  var html='<h3>Escolas</h3>';
+  SCHOOLS.forEach(function(s){
+    html+='<label><input type="checkbox" checked data-school="'+s.id+'"><span class="swatch" style="background:'+s.color+'"></span>'+s.name+'</label>';
+  });
+  html+='<div class="edge-section"><h3>Arestas</h3>';
+  html+='<label><input type="checkbox" checked id="chkInfluence"> Influ\u00eancia</label>';
+  html+='<label><input type="checkbox" checked id="chkOpposition"> Oposi\u00e7\u00e3o</label>';
+  html+='</div>';
+  fp.innerHTML=html;
+
+  fp.querySelectorAll('input[data-school]').forEach(function(cb){
+    cb.addEventListener('change',function(){
+      visibleSchools[this.getAttribute('data-school')]=this.checked;
+      simRunning=true;simTicks=0;
+    });
+  });
+  document.getElementById('chkInfluence').addEventListener('change',function(){showInfluence=this.checked});
+  document.getElementById('chkOpposition').addEventListener('change',function(){showOpposition=this.checked});
+}
+
+document.getElementById('filterBtn').addEventListener('click',function(){
+  document.getElementById('filterPanel').classList.toggle('show');
+});
+
+document.getElementById('closeInfo').addEventListener('click',hideInfo);
+
+document.getElementById('resetBtn').addEventListener('click',function(){
+  camera={x:0,y:0,zoom:1};
+  hideInfo();
+  simRunning=true;simTicks=0;
+  nodes.forEach(function(n){n.pinned=false});
+});
+
+// === THEME ===
+function syncTheme(){
+  try{
+    var s=JSON.parse(localStorage.getItem('lectio_v2')||'{}');
+    if(s.theme==='dark')document.documentElement.setAttribute('data-theme','dark');
+  }catch(e){}
+}
+function toggleTheme(){
+  var d=document.documentElement;
+  var t=d.getAttribute('data-theme')==='dark'?null:'dark';
+  if(t)d.setAttribute('data-theme','dark');else d.removeAttribute('data-theme');
+  try{
+    var s=JSON.parse(localStorage.getItem('lectio_v2')||'{}');
+    s.theme=t||'light';
+    localStorage.setItem('lectio_v2',JSON.stringify(s));
+  }catch(e){}
+  document.getElementById('thBtn').textContent=t?'\u2600':'\u263E';
+}
+syncTheme();
+if(document.documentElement.getAttribute('data-theme')==='dark')document.getElementById('thBtn').textContent='\u2600';
+
+// === MAIN LOOP ===
+initGraph();
+buildFilterPanel();
+resize();
+window.addEventListener('resize',resize);
+
+function loop(){
+  simulate();
+  draw();
+  requestAnimationFrame(loop);
+}
+loop();
+</script>
+</body>
+</html>
