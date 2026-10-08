@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 456" width="600" height="456" role="img" aria-labelledby="tt dd" style="font-family:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif">
+<title id="tt">O pior resultado já registrado, conforme o prazo</title><desc id="dd">Em 1 ano o pior das ações é −38,6%, contra −21,9% dos títulos e −15,6% das letras. Em 10 anos as ações já perdem menos. Em 20 e 30 anos o pior das ações é positivo (+1,0% e +2,6%).</desc>
+<style>
+.bg{fill:#fcfcfb;stroke:rgba(11,11,11,.10)}
+.ink{fill:#0b0b0b}.ink2{fill:#52514e}.mut{fill:#898781}
+.grid{stroke:#e1e0d9;stroke-width:1}.axis{stroke:#c3c2b7;stroke-width:1}
+.ref{stroke:#52514e;stroke-width:1}
+.s1{fill:#2a78d6}.s1s{stroke:#2a78d6}.s1w{fill:#2a78d6;fill-opacity:.10}
+.s2{fill:#eb6834}.s2s{stroke:#eb6834}.s2w{fill:#eb6834;fill-opacity:.10}
+.s3{fill:#1baf7a}
+.gray{fill:#c3c2b7}.grays{stroke:#c3c2b7}
+.neg{fill:#2a78d6}.pos{fill:#e34948}.posl{fill:#e34948;fill-opacity:.40}
+.ring{stroke:#fcfcfb}.surf{fill:#fcfcfb}
+.onfill{fill:#ffffff}
+@media (prefers-color-scheme: dark){
+.bg{fill:#1a1a19;stroke:rgba(255,255,255,.10)}
+.ink{fill:#ffffff}.ink2{fill:#c3c2b7}.mut{fill:#898781}
+.grid{stroke:#2c2c2a}.axis{stroke:#383835}
+.ref{stroke:#c3c2b7}
+.s1{fill:#3987e5}.s1s{stroke:#3987e5}.s1w{fill:#3987e5;fill-opacity:.14}
+.s2{fill:#d95926}.s2s{stroke:#d95926}.s2w{fill:#d95926;fill-opacity:.14}
+.s3{fill:#199e70}
+.gray{fill:#52514e}.grays{stroke:#52514e}
+.neg{fill:#3987e5}.pos{fill:#e66767}.posl{fill:#e66767;fill-opacity:.45}
+.ring{stroke:#1a1a19}.surf{fill:#1a1a19}
+}
+</style>
+<rect x="0.5" y="0.5" width="599" height="455" rx="12" class="bg"/>
+<text x="24.0" y="36.0" class="ink" font-size="18" text-anchor="start" font-weight="600" >O pior resultado já registrado, conforme o prazo</text>
+<text x="24.0" y="60.0" class="ink2" font-size="14" text-anchor="start" font-weight="400" >Pior retorno real anualizado de cada classe de ativos, 1802–2012</text>
+<rect x="24.0" y="94.0" width="12" height="12" rx="3" class="s1"/>
+<text x="42.0" y="104.0" class="ink" font-size="14" text-anchor="start" font-weight="400" >Ações</text>
+<rect x="110.0" y="94.0" width="12" height="12" rx="3" class="s2"/>
+<text x="128.0" y="104.0" class="ink" font-size="14" text-anchor="start" font-weight="400" >Títulos</text>
+<rect x="204.0" y="94.0" width="12" height="12" rx="3" class="s3"/>
+<text x="222.0" y="104.0" class="ink" font-size="14" text-anchor="start" font-weight="400" >Letras</text>
+<line x1="64.0" y1="151.4" x2="572.0" y2="151.4" class="axis" />
+<text x="54.0" y="155.4" class="mut" font-size="13" text-anchor="end" font-weight="400" >0%</text>
+<line x1="64.0" y1="198.2" x2="572.0" y2="198.2" class="grid" />
+<text x="54.0" y="202.2" class="mut" font-size="13" text-anchor="end" font-weight="400" >−10%</text>
+<line x1="64.0" y1="245.0" x2="572.0" y2="245.0" class="grid" />
+<text x="54.0" y="249.0" class="mut" font-size="13" text-anchor="end" font-weight="400" >−20%</text>
+<line x1="64.0" y1="291.8" x2="572.0" y2="291.8" class="grid" />
+<text x="54.0" y="295.8" class="mut" font-size="13" text-anchor="end" font-weight="400" >−30%</text>
+<line x1="64.0" y1="338.6" x2="572.0" y2="338.6" class="grid" />
+<text x="54.0" y="342.6" class="mut" font-size="13" text-anchor="end" font-weight="400" >−40%</text>
+<path d="M74.3,151.4 L74.3,328.0 Q74.3,332.0 78.3,332.0 L90.3,332.0 Q94.3,332.0 94.3,328.0 L94.3,151.4 Z" class="s1"/>
+<path d="M96.3,151.4 L96.3,249.9 Q96.3,253.9 100.3,253.9 L112.3,253.9 Q116.3,253.9 116.3,249.9 L116.3,151.4 Z" class="s2"/>
+<path d="M118.3,151.4 L118.3,220.4 Q118.3,224.4 122.3,224.4 L134.3,224.4 Q138.3,224.4 138.3,220.4 L138.3,151.4 Z" class="s3"/>
+<text x="84.3" y="350.0" class="ink" font-size="13" text-anchor="middle" font-weight="600" >−38,6%</text>
+<text x="106.3" y="386.0" class="ink2" font-size="14" text-anchor="middle" font-weight="400" >1 ano</text>
+<path d="M159.0,151.4 L159.0,295.3 Q159.0,299.3 163.0,299.3 L175.0,299.3 Q179.0,299.3 179.0,295.3 L179.0,151.4 Z" class="s1"/>
+<path d="M181.0,151.4 L181.0,221.8 Q181.0,225.8 185.0,225.8 L197.0,225.8 Q201.0,225.8 201.0,221.8 L201.0,151.4 Z" class="s2"/>
+<path d="M203.0,151.4 L203.0,218.1 Q203.0,222.1 207.0,222.1 L219.0,222.1 Q223.0,222.1 223.0,218.1 L223.0,151.4 Z" class="s3"/>
+<text x="169.0" y="317.3" class="ink" font-size="13" text-anchor="middle" font-weight="600" >−31,6%</text>
+<text x="191.0" y="386.0" class="ink2" font-size="14" text-anchor="middle" font-weight="400" >2 anos</text>
+<path d="M243.7,151.4 L243.7,198.9 Q243.7,202.9 247.7,202.9 L259.7,202.9 Q263.7,202.9 263.7,198.9 L263.7,151.4 Z" class="s1"/>
+<path d="M265.7,151.4 L265.7,194.7 Q265.7,198.7 269.7,198.7 L281.7,198.7 Q285.7,198.7 285.7,194.7 L285.7,151.4 Z" class="s2"/>
+<path d="M287.7,151.4 L287.7,184.8 Q287.7,188.8 291.7,188.8 L303.7,188.8 Q307.7,188.8 307.7,184.8 L307.7,151.4 Z" class="s3"/>
+<text x="253.7" y="220.9" class="ink" font-size="13" text-anchor="middle" font-weight="600" >−11,0%</text>
+<text x="275.7" y="386.0" class="ink2" font-size="14" text-anchor="middle" font-weight="400" >5 anos</text>
+<path d="M328.3,151.4 L328.3,166.6 Q328.3,170.6 332.3,170.6 L344.3,170.6 Q348.3,170.6 348.3,166.6 L348.3,151.4 Z" class="s1"/>
+<path d="M350.3,151.4 L350.3,172.7 Q350.3,176.7 354.3,176.7 L366.3,176.7 Q370.3,176.7 370.3,172.7 L370.3,151.4 Z" class="s2"/>
+<path d="M372.3,151.4 L372.3,171.3 Q372.3,175.3 376.3,175.3 L388.3,175.3 Q392.3,175.3 392.3,171.3 L392.3,151.4 Z" class="s3"/>
+<text x="338.3" y="188.6" class="ink" font-size="13" text-anchor="middle" font-weight="600" >−4,1%</text>
+<text x="360.3" y="386.0" class="ink2" font-size="14" text-anchor="middle" font-weight="400" >10 anos</text>
+<path d="M413.0,151.4 L413.0,149.1 Q413.0,146.7 415.3,146.7 L430.7,146.7 Q433.0,146.7 433.0,149.1 L433.0,151.4 Z" class="s1"/>
+<path d="M435.0,151.4 L435.0,161.9 Q435.0,165.9 439.0,165.9 L451.0,165.9 Q455.0,165.9 455.0,161.9 L455.0,151.4 Z" class="s2"/>
+<path d="M457.0,151.4 L457.0,161.4 Q457.0,165.4 461.0,165.4 L473.0,165.4 Q477.0,165.4 477.0,161.4 L477.0,151.4 Z" class="s3"/>
+<text x="423.0" y="138.7" class="ink" font-size="13" text-anchor="middle" font-weight="600" >+1,0%</text>
+<text x="445.0" y="386.0" class="ink2" font-size="14" text-anchor="middle" font-weight="400" >20 anos</text>
+<path d="M497.7,151.4 L497.7,143.2 Q497.7,139.2 501.7,139.2 L513.7,139.2 Q517.7,139.2 517.7,143.2 L517.7,151.4 Z" class="s1"/>
+<path d="M519.7,151.4 L519.7,156.8 Q519.7,160.8 523.7,160.8 L535.7,160.8 Q539.7,160.8 539.7,156.8 L539.7,151.4 Z" class="s2"/>
+<path d="M541.7,151.4 L541.7,155.8 Q541.7,159.8 545.7,159.8 L557.7,159.8 Q561.7,159.8 561.7,155.8 L561.7,151.4 Z" class="s3"/>
+<text x="507.7" y="131.2" class="ink" font-size="13" text-anchor="middle" font-weight="600" >+2,6%</text>
+<text x="529.7" y="386.0" class="ink2" font-size="14" text-anchor="middle" font-weight="400" >30 anos</text>
+<text x="24.0" y="421.0" class="mut" font-size="12" text-anchor="start" font-weight="400" >Valores aproximados da tabela de Siegel (cap. 6); rótulos indicam as ações.</text>
+<text x="24.0" y="438.0" class="mut" font-size="12" text-anchor="start" font-weight="400" >A tabela completa está no texto.</text>
+</svg>

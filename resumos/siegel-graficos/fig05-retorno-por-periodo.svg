@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 430" width="600" height="430" role="img" aria-labelledby="tt dd" style="font-family:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif">
+<title id="tt">Retorno real das ações americanas, por período</title><desc id="dd">1802–1870: 6,7%; 1871–1925: 6,6%; 1926–2012: 6,4%.</desc>
+<style>
+.bg{fill:#fcfcfb;stroke:rgba(11,11,11,.10)}
+.ink{fill:#0b0b0b}.ink2{fill:#52514e}.mut{fill:#898781}
+.grid{stroke:#e1e0d9;stroke-width:1}.axis{stroke:#c3c2b7;stroke-width:1}
+.ref{stroke:#52514e;stroke-width:1}
+.s1{fill:#2a78d6}.s1s{stroke:#2a78d6}.s1w{fill:#2a78d6;fill-opacity:.10}
+.s2{fill:#eb6834}.s2s{stroke:#eb6834}.s2w{fill:#eb6834;fill-opacity:.10}
+.s3{fill:#1baf7a}
+.gray{fill:#c3c2b7}.grays{stroke:#c3c2b7}
+.neg{fill:#2a78d6}.pos{fill:#e34948}.posl{fill:#e34948;fill-opacity:.40}
+.ring{stroke:#fcfcfb}.surf{fill:#fcfcfb}
+.onfill{fill:#ffffff}
+@media (prefers-color-scheme: dark){
+.bg{fill:#1a1a19;stroke:rgba(255,255,255,.10)}
+.ink{fill:#ffffff}.ink2{fill:#c3c2b7}.mut{fill:#898781}
+.grid{stroke:#2c2c2a}.axis{stroke:#383835}
+.ref{stroke:#c3c2b7}
+.s1{fill:#3987e5}.s1s{stroke:#3987e5}.s1w{fill:#3987e5;fill-opacity:.14}
+.s2{fill:#d95926}.s2s{stroke:#d95926}.s2w{fill:#d95926;fill-opacity:.14}
+.s3{fill:#199e70}
+.gray{fill:#52514e}.grays{stroke:#52514e}
+.neg{fill:#3987e5}.pos{fill:#e66767}.posl{fill:#e66767;fill-opacity:.45}
+.ring{stroke:#1a1a19}.surf{fill:#1a1a19}
+}
+</style>
+<rect x="0.5" y="0.5" width="599" height="429" rx="12" class="bg"/>
+<text x="24.0" y="36.0" class="ink" font-size="18" text-anchor="start" font-weight="600" >Retorno real das ações americanas, por período</text>
+<text x="24.0" y="60.0" class="ink2" font-size="14" text-anchor="start" font-weight="400" >Média anual acima da inflação. Média de todo o período: cerca de 6,6%</text>
+<line x1="64.0" y1="330.0" x2="560.0" y2="330.0" class="axis" />
+<text x="54.0" y="334.0" class="mut" font-size="13" text-anchor="end" font-weight="400" >0%</text>
+<line x1="64.0" y1="275.0" x2="560.0" y2="275.0" class="grid" />
+<text x="54.0" y="279.0" class="mut" font-size="13" text-anchor="end" font-weight="400" >2%</text>
+<line x1="64.0" y1="220.0" x2="560.0" y2="220.0" class="grid" />
+<text x="54.0" y="224.0" class="mut" font-size="13" text-anchor="end" font-weight="400" >4%</text>
+<line x1="64.0" y1="165.0" x2="560.0" y2="165.0" class="grid" />
+<text x="54.0" y="169.0" class="mut" font-size="13" text-anchor="end" font-weight="400" >6%</text>
+<line x1="64.0" y1="110.0" x2="560.0" y2="110.0" class="grid" />
+<text x="54.0" y="114.0" class="mut" font-size="13" text-anchor="end" font-weight="400" >8%</text>
+<path d="M134.7,330.0 L134.7,149.8 Q134.7,145.8 138.7,145.8 L154.7,145.8 Q158.7,145.8 158.7,149.8 L158.7,330.0 Z" class="s1"/>
+<text x="146.7" y="135.8" class="ink" font-size="15" text-anchor="middle" font-weight="600" >6,7%</text>
+<text x="146.7" y="352.0" class="ink2" font-size="14" text-anchor="middle" font-weight="400" >1802–1870</text>
+<path d="M300.0,330.0 L300.0,152.5 Q300.0,148.5 304.0,148.5 L320.0,148.5 Q324.0,148.5 324.0,152.5 L324.0,330.0 Z" class="s1"/>
+<text x="312.0" y="138.5" class="ink" font-size="15" text-anchor="middle" font-weight="600" >6,6%</text>
+<text x="312.0" y="352.0" class="ink2" font-size="14" text-anchor="middle" font-weight="400" >1871–1925</text>
+<path d="M465.3,330.0 L465.3,158.0 Q465.3,154.0 469.3,154.0 L485.3,154.0 Q489.3,154.0 489.3,158.0 L489.3,330.0 Z" class="s1"/>
+<text x="477.3" y="144.0" class="ink" font-size="15" text-anchor="middle" font-weight="600" >6,4%</text>
+<text x="477.3" y="352.0" class="ink2" font-size="14" text-anchor="middle" font-weight="400" >1926–2012</text>
+<text x="24.0" y="395.0" class="mut" font-size="12" text-anchor="start" font-weight="400" >Fonte: Siegel, cap. 5. Os três períodos atravessam guerras, crises e a troca do</text>
+<text x="24.0" y="412.0" class="mut" font-size="12" text-anchor="start" font-weight="400" >ouro pelo papel-moeda, e mesmo assim o retorno real quase não muda.</text>
+</svg>

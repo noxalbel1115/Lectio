@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="600" height="420" role="img" aria-labelledby="tt dd" style="font-family:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif">
+<title id="tt">Juros do título de 10 anos do Tesouro americano</title><desc id="dd">Os juros caem de 13,9% em 1981 para 1,8% em 2012, com oscilações.</desc>
+<style>
+.bg{fill:#fcfcfb;stroke:rgba(11,11,11,.10)}
+.ink{fill:#0b0b0b}.ink2{fill:#52514e}.mut{fill:#898781}
+.grid{stroke:#e1e0d9;stroke-width:1}.axis{stroke:#c3c2b7;stroke-width:1}
+.ref{stroke:#52514e;stroke-width:1}
+.s1{fill:#2a78d6}.s1s{stroke:#2a78d6}.s1w{fill:#2a78d6;fill-opacity:.10}
+.s2{fill:#eb6834}.s2s{stroke:#eb6834}.s2w{fill:#eb6834;fill-opacity:.10}
+.s3{fill:#1baf7a}
+.gray{fill:#c3c2b7}.grays{stroke:#c3c2b7}
+.neg{fill:#2a78d6}.pos{fill:#e34948}.posl{fill:#e34948;fill-opacity:.40}
+.ring{stroke:#fcfcfb}.surf{fill:#fcfcfb}
+.onfill{fill:#ffffff}
+@media (prefers-color-scheme: dark){
+.bg{fill:#1a1a19;stroke:rgba(255,255,255,.10)}
+.ink{fill:#ffffff}.ink2{fill:#c3c2b7}.mut{fill:#898781}
+.grid{stroke:#2c2c2a}.axis{stroke:#383835}
+.ref{stroke:#c3c2b7}
+.s1{fill:#3987e5}.s1s{stroke:#3987e5}.s1w{fill:#3987e5;fill-opacity:.14}
+.s2{fill:#d95926}.s2s{stroke:#d95926}.s2w{fill:#d95926;fill-opacity:.14}
+.s3{fill:#199e70}
+.gray{fill:#52514e}.grays{stroke:#52514e}
+.neg{fill:#3987e5}.pos{fill:#e66767}.posl{fill:#e66767;fill-opacity:.45}
+.ring{stroke:#1a1a19}.surf{fill:#1a1a19}
+}
+</style>
+<rect x="0.5" y="0.5" width="599" height="419" rx="12" class="bg"/>
+<text x="24.0" y="36.0" class="ink" font-size="18" text-anchor="start" font-weight="600" >Juros do título de 10 anos do Tesouro americano</text>
+<text x="24.0" y="60.0" class="ink2" font-size="14" text-anchor="start" font-weight="400" >Média anual, 1981–2012</text>
+<line x1="56.0" y1="330.0" x2="548.0" y2="330.0" class="axis" />
+<text x="46.0" y="334.0" class="mut" font-size="13" text-anchor="end" font-weight="400" >0%</text>
+<line x1="56.0" y1="272.5" x2="548.0" y2="272.5" class="grid" />
+<text x="46.0" y="276.5" class="mut" font-size="13" text-anchor="end" font-weight="400" >4%</text>
+<line x1="56.0" y1="215.0" x2="548.0" y2="215.0" class="grid" />
+<text x="46.0" y="219.0" class="mut" font-size="13" text-anchor="end" font-weight="400" >8%</text>
+<line x1="56.0" y1="157.5" x2="548.0" y2="157.5" class="grid" />
+<text x="46.0" y="161.5" class="mut" font-size="13" text-anchor="end" font-weight="400" >12%</text>
+<line x1="56.0" y1="100.0" x2="548.0" y2="100.0" class="grid" />
+<text x="46.0" y="104.0" class="mut" font-size="13" text-anchor="end" font-weight="400" >16%</text>
+<text x="56.0" y="352.0" class="mut" font-size="13" text-anchor="middle" font-weight="400" >1981</text>
+<text x="198.8" y="352.0" class="mut" font-size="13" text-anchor="middle" font-weight="400" >1990</text>
+<text x="357.5" y="352.0" class="mut" font-size="13" text-anchor="middle" font-weight="400" >2000</text>
+<text x="548.0" y="352.0" class="mut" font-size="13" text-anchor="middle" font-weight="400" >2012</text>
+<path d="M56.0,330.0 L56.0,130.0 L71.9,143.1 L87.7,170.4 L103.6,151.2 L119.5,177.3 L135.4,219.6 L151.2,209.4 L167.1,202.8 L183.0,208.0 L198.8,207.1 L214.7,217.0 L230.6,229.2 L246.5,245.6 L262.3,228.1 L278.2,235.6 L294.1,237.4 L309.9,238.7 L325.8,254.4 L341.7,248.8 L357.5,243.3 L373.4,257.8 L389.3,263.7 L405.2,272.4 L421.0,268.6 L436.9,268.3 L452.8,261.0 L468.6,263.4 L484.5,277.4 L500.4,283.1 L516.3,283.7 L532.1,290.0 L548.0,304.1 L548.0,330.0 Z" class="s1w"/>
+<polyline points="56.0,130.0 71.9,143.1 87.7,170.4 103.6,151.2 119.5,177.3 135.4,219.6 151.2,209.4 167.1,202.8 183.0,208.0 198.8,207.1 214.7,217.0 230.6,229.2 246.5,245.6 262.3,228.1 278.2,235.6 294.1,237.4 309.9,238.7 325.8,254.4 341.7,248.8 357.5,243.3 373.4,257.8 389.3,263.7 405.2,272.4 421.0,268.6 436.9,268.3 452.8,261.0 468.6,263.4 484.5,277.4 500.4,283.1 516.3,283.7 532.1,290.0 548.0,304.1" fill="none" class="s1s" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="56.0" cy="130.0" r="5" class="s1 ring" stroke-width="2"/>
+<text x="68.0" y="120.0" class="ink" font-size="15" text-anchor="start" font-weight="600" >13,9%</text>
+<circle cx="548.0" cy="304.1" r="5" class="s1 ring" stroke-width="2"/>
+<text x="536.0" y="294.1" class="ink" font-size="15" text-anchor="end" font-weight="600" >1,8%</text>
+<text x="24.0" y="385.0" class="mut" font-size="12" text-anchor="start" font-weight="400" >Médias anuais aproximadas (Federal Reserve, série GS10). No pior dia de 1981, os juros</text>
+<text x="24.0" y="402.0" class="mut" font-size="12" text-anchor="start" font-weight="400" >chegaram a cerca de 15,8%; no melhor de 2012, a cerca de 1,4%.</text>
+</svg>
