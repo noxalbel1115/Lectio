@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440" width="600" height="440" role="img" aria-labelledby="tt dd" style="font-family:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif">
+<title id="tt">Os títulos nem sempre protegem as ações</title><desc id="dd">1926–1965: levemente positiva; Grande Depressão: negativa; 1960–1990: positiva; depois de 1998: negativa.</desc>
+<style>
+.bg{fill:#fcfcfb;stroke:rgba(11,11,11,.10)}
+.ink{fill:#0b0b0b}.ink2{fill:#52514e}.mut{fill:#898781}
+.grid{stroke:#e1e0d9;stroke-width:1}.axis{stroke:#c3c2b7;stroke-width:1}
+.ref{stroke:#52514e;stroke-width:1}
+.s1{fill:#2a78d6}.s1s{stroke:#2a78d6}.s1w{fill:#2a78d6;fill-opacity:.10}
+.s2{fill:#eb6834}.s2s{stroke:#eb6834}.s2w{fill:#eb6834;fill-opacity:.10}
+.s3{fill:#1baf7a}
+.gray{fill:#c3c2b7}.grays{stroke:#c3c2b7}
+.neg{fill:#2a78d6}.pos{fill:#e34948}.posl{fill:#e34948;fill-opacity:.40}
+.ring{stroke:#fcfcfb}.surf{fill:#fcfcfb}
+.onfill{fill:#ffffff}
+@media (prefers-color-scheme: dark){
+.bg{fill:#1a1a19;stroke:rgba(255,255,255,.10)}
+.ink{fill:#ffffff}.ink2{fill:#c3c2b7}.mut{fill:#898781}
+.grid{stroke:#2c2c2a}.axis{stroke:#383835}
+.ref{stroke:#c3c2b7}
+.s1{fill:#3987e5}.s1s{stroke:#3987e5}.s1w{fill:#3987e5;fill-opacity:.14}
+.s2{fill:#d95926}.s2s{stroke:#d95926}.s2w{fill:#d95926;fill-opacity:.14}
+.s3{fill:#199e70}
+.gray{fill:#52514e}.grays{stroke:#52514e}
+.neg{fill:#3987e5}.pos{fill:#e66767}.posl{fill:#e66767;fill-opacity:.45}
+.ring{stroke:#1a1a19}.surf{fill:#1a1a19}
+}
+</style>
+<rect x="0.5" y="0.5" width="599" height="439" rx="12" class="bg"/>
+<text x="24.0" y="36.0" class="ink" font-size="18" text-anchor="start" font-weight="600" >Os títulos nem sempre protegem as ações</text>
+<text x="24.0" y="60.0" class="ink2" font-size="14" text-anchor="start" font-weight="400" >Sinal da correlação entre os retornos de ações e de títulos do governo</text>
+<rect x="24.0" y="90.0" width="12" height="12" rx="3" class="neg"/>
+<text x="42.0" y="100.0" class="ink" font-size="14" text-anchor="start" font-weight="400" >Negativa: os títulos protegem quando as ações caem</text>
+<rect x="24.0" y="112.0" width="12" height="12" rx="3" class="pos"/>
+<text x="42.0" y="122.0" class="ink" font-size="14" text-anchor="start" font-weight="400" >Positiva: ações e títulos caem juntos</text>
+<line x1="24.0" y1="150.0" x2="24.0" y2="348.0" class="grid" />
+<text x="24.0" y="368.0" class="mut" font-size="13" text-anchor="middle" font-weight="400" >1920</text>
+<line x1="140.2" y1="150.0" x2="140.2" y2="348.0" class="grid" />
+<text x="140.2" y="368.0" class="mut" font-size="13" text-anchor="middle" font-weight="400" >1940</text>
+<line x1="256.4" y1="150.0" x2="256.4" y2="348.0" class="grid" />
+<text x="256.4" y="368.0" class="mut" font-size="13" text-anchor="middle" font-weight="400" >1960</text>
+<line x1="372.6" y1="150.0" x2="372.6" y2="348.0" class="grid" />
+<text x="372.6" y="368.0" class="mut" font-size="13" text-anchor="middle" font-weight="400" >1980</text>
+<line x1="488.8" y1="150.0" x2="488.8" y2="348.0" class="grid" />
+<text x="488.8" y="368.0" class="mut" font-size="13" text-anchor="middle" font-weight="400" >2000</text>
+<path d="M58.9,164.0 L281.5,164.0 Q285.5,164.0 285.5,168.0 L285.5,180.0 Q285.5,184.0 281.5,184.0 L58.9,184.0 Z" class="posl"/>
+<text x="295.5" y="173.0" class="ink" font-size="14" text-anchor="start" font-weight="600" >1926–1965</text>
+<text x="295.5" y="189.0" class="ink2" font-size="13" text-anchor="start" font-weight="400" >levemente positiva</text>
+<path d="M76.3,216.0 L130.4,216.0 Q134.4,216.0 134.4,220.0 L134.4,232.0 Q134.4,236.0 130.4,236.0 L76.3,236.0 Z" class="neg"/>
+<text x="144.4" y="225.0" class="ink" font-size="14" text-anchor="start" font-weight="600" >Grande Depressão</text>
+<text x="144.4" y="241.0" class="ink2" font-size="13" text-anchor="start" font-weight="400" >negativa</text>
+<path d="M256.4,268.0 L426.7,268.0 Q430.7,268.0 430.7,272.0 L430.7,284.0 Q430.7,288.0 426.7,288.0 L256.4,288.0 Z" class="pos"/>
+<text x="246.4" y="277.0" class="ink" font-size="14" text-anchor="end" font-weight="600" >1960–1990</text>
+<text x="246.4" y="293.0" class="ink2" font-size="13" text-anchor="end" font-weight="400" >positiva</text>
+<path d="M477.2,320.0 L554.6,320.0 Q558.6,320.0 558.6,324.0 L558.6,336.0 Q558.6,340.0 554.6,340.0 L477.2,340.0 Z" class="neg"/>
+<text x="467.2" y="329.0" class="ink" font-size="14" text-anchor="end" font-weight="600" >Depois de 1998</text>
+<text x="467.2" y="345.0" class="ink2" font-size="13" text-anchor="end" font-weight="400" >negativa</text>
+<text x="24.0" y="405.0" class="mut" font-size="12" text-anchor="start" font-weight="400" >Classificação qualitativa, conforme o capítulo 6. A Grande Depressão aparece em linha própria</text>
+<text x="24.0" y="422.0" class="mut" font-size="12" text-anchor="start" font-weight="400" >(o livro não delimita as datas; usamos a década de 1930 como referência).</text>
+</svg>

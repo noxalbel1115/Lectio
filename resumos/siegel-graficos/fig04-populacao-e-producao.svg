@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 370" width="600" height="370" role="img" aria-labelledby="tt dd" style="font-family:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif">
+<title id="tt">Quem vive e quem produz no mundo</title><desc id="dd">População hoje: 20% em países desenvolvidos. Produção hoje: 50%. Produção projetada para o fim do século: 25%.</desc>
+<style>
+.bg{fill:#fcfcfb;stroke:rgba(11,11,11,.10)}
+.ink{fill:#0b0b0b}.ink2{fill:#52514e}.mut{fill:#898781}
+.grid{stroke:#e1e0d9;stroke-width:1}.axis{stroke:#c3c2b7;stroke-width:1}
+.ref{stroke:#52514e;stroke-width:1}
+.s1{fill:#2a78d6}.s1s{stroke:#2a78d6}.s1w{fill:#2a78d6;fill-opacity:.10}
+.s2{fill:#eb6834}.s2s{stroke:#eb6834}.s2w{fill:#eb6834;fill-opacity:.10}
+.s3{fill:#1baf7a}
+.gray{fill:#c3c2b7}.grays{stroke:#c3c2b7}
+.neg{fill:#2a78d6}.pos{fill:#e34948}.posl{fill:#e34948;fill-opacity:.40}
+.ring{stroke:#fcfcfb}.surf{fill:#fcfcfb}
+.onfill{fill:#ffffff}
+@media (prefers-color-scheme: dark){
+.bg{fill:#1a1a19;stroke:rgba(255,255,255,.10)}
+.ink{fill:#ffffff}.ink2{fill:#c3c2b7}.mut{fill:#898781}
+.grid{stroke:#2c2c2a}.axis{stroke:#383835}
+.ref{stroke:#c3c2b7}
+.s1{fill:#3987e5}.s1s{stroke:#3987e5}.s1w{fill:#3987e5;fill-opacity:.14}
+.s2{fill:#d95926}.s2s{stroke:#d95926}.s2w{fill:#d95926;fill-opacity:.14}
+.s3{fill:#199e70}
+.gray{fill:#52514e}.grays{stroke:#52514e}
+.neg{fill:#3987e5}.pos{fill:#e66767}.posl{fill:#e66767;fill-opacity:.45}
+.ring{stroke:#1a1a19}.surf{fill:#1a1a19}
+}
+</style>
+<rect x="0.5" y="0.5" width="599" height="369" rx="12" class="bg"/>
+<text x="24.0" y="36.0" class="ink" font-size="18" text-anchor="start" font-weight="600" >Quem vive e quem produz no mundo</text>
+<text x="24.0" y="60.0" class="ink2" font-size="14" text-anchor="start" font-weight="400" >Participação na população e na produção mundial</text>
+<rect x="24.0" y="96.0" width="12" height="12" rx="3" class="s1"/>
+<text x="42.0" y="106.0" class="ink" font-size="14" text-anchor="start" font-weight="400" >Países desenvolvidos</text>
+<rect x="220.0" y="96.0" width="12" height="12" rx="3" class="s2"/>
+<text x="238.0" y="106.0" class="ink" font-size="14" text-anchor="start" font-weight="400" >Países em desenvolvimento</text>
+<text x="24.0" y="142.0" class="ink" font-size="15" text-anchor="start" font-weight="600" >População</text>
+<text x="113.0" y="142.0" class="mut" font-size="13" text-anchor="start" font-weight="400" >hoje</text>
+<rect x="24.0" y="150.0" width="109.4" height="24.0" class="s1"/>
+<path d="M135.4,150.0 L572.0,150.0 Q576.0,150.0 576.0,154.0 L576.0,170.0 Q576.0,174.0 572.0,174.0 L135.4,174.0 Z" class="s2"/>
+<text x="32.0" y="167.0" class="onfill" font-size="14" text-anchor="start" font-weight="600" >20%</text>
+<text x="568.0" y="167.0" class="onfill" font-size="14" text-anchor="end" font-weight="600" >80%</text>
+<text x="24.0" y="216.0" class="ink" font-size="15" text-anchor="start" font-weight="600" >Produção</text>
+<text x="104.0" y="216.0" class="mut" font-size="13" text-anchor="start" font-weight="400" >hoje</text>
+<rect x="24.0" y="224.0" width="275.0" height="24.0" class="s1"/>
+<path d="M301.0,224.0 L572.0,224.0 Q576.0,224.0 576.0,228.0 L576.0,244.0 Q576.0,248.0 572.0,248.0 L301.0,248.0 Z" class="s2"/>
+<text x="32.0" y="241.0" class="onfill" font-size="14" text-anchor="start" font-weight="600" >50%</text>
+<text x="568.0" y="241.0" class="onfill" font-size="14" text-anchor="end" font-weight="600" >50%</text>
+<text x="24.0" y="290.0" class="ink" font-size="15" text-anchor="start" font-weight="600" >Produção</text>
+<text x="104.0" y="290.0" class="mut" font-size="13" text-anchor="start" font-weight="400" >fim do século (projeção)</text>
+<rect x="24.0" y="298.0" width="137.0" height="24.0" class="s1"/>
+<path d="M163.0,298.0 L572.0,298.0 Q576.0,298.0 576.0,302.0 L576.0,318.0 Q576.0,322.0 572.0,322.0 L163.0,322.0 Z" class="s2"/>
+<text x="32.0" y="315.0" class="onfill" font-size="14" text-anchor="start" font-weight="600" >25%</text>
+<text x="568.0" y="315.0" class="onfill" font-size="14" text-anchor="end" font-weight="600" >75%</text>
+<text x="24.0" y="352.0" class="mut" font-size="12" text-anchor="start" font-weight="400" >Fonte: números citados por Siegel no capítulo 4.</text>
+</svg>

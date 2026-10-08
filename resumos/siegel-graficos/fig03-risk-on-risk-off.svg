@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" role="img" aria-labelledby="tt dd" style="font-family:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif">
+<title id="tt">Os dois modos do mercado depois da crise</title><desc id="dd">Risk-on: compram-se ações e commodities, vendem-se dólar e títulos. Risk-off: o inverso.</desc>
+<style>
+.bg{fill:#fcfcfb;stroke:rgba(11,11,11,.10)}
+.ink{fill:#0b0b0b}.ink2{fill:#52514e}.mut{fill:#898781}
+.grid{stroke:#e1e0d9;stroke-width:1}.axis{stroke:#c3c2b7;stroke-width:1}
+.ref{stroke:#52514e;stroke-width:1}
+.s1{fill:#2a78d6}.s1s{stroke:#2a78d6}.s1w{fill:#2a78d6;fill-opacity:.10}
+.s2{fill:#eb6834}.s2s{stroke:#eb6834}.s2w{fill:#eb6834;fill-opacity:.10}
+.s3{fill:#1baf7a}
+.gray{fill:#c3c2b7}.grays{stroke:#c3c2b7}
+.neg{fill:#2a78d6}.pos{fill:#e34948}.posl{fill:#e34948;fill-opacity:.40}
+.ring{stroke:#fcfcfb}.surf{fill:#fcfcfb}
+.onfill{fill:#ffffff}
+@media (prefers-color-scheme: dark){
+.bg{fill:#1a1a19;stroke:rgba(255,255,255,.10)}
+.ink{fill:#ffffff}.ink2{fill:#c3c2b7}.mut{fill:#898781}
+.grid{stroke:#2c2c2a}.axis{stroke:#383835}
+.ref{stroke:#c3c2b7}
+.s1{fill:#3987e5}.s1s{stroke:#3987e5}.s1w{fill:#3987e5;fill-opacity:.14}
+.s2{fill:#d95926}.s2s{stroke:#d95926}.s2w{fill:#d95926;fill-opacity:.14}
+.s3{fill:#199e70}
+.gray{fill:#52514e}.grays{stroke:#52514e}
+.neg{fill:#3987e5}.pos{fill:#e66767}.posl{fill:#e66767;fill-opacity:.45}
+.ring{stroke:#1a1a19}.surf{fill:#1a1a19}
+}
+</style>
+<rect x="0.5" y="0.5" width="599" height="359" rx="12" class="bg"/>
+<text x="24.0" y="36.0" class="ink" font-size="18" text-anchor="start" font-weight="600" >Os dois modos do mercado depois da crise</text>
+<text x="24.0" y="60.0" class="ink2" font-size="14" text-anchor="start" font-weight="400" >O que os investidores compram e vendem conforme o tom das notícias</text>
+<text x="290.0" y="94.0" class="ink" font-size="15" text-anchor="middle" font-weight="600" >Risk-on</text>
+<text x="290.0" y="112.0" class="mut" font-size="13" text-anchor="middle" font-weight="400" >boas notícias</text>
+<text x="450.0" y="94.0" class="ink" font-size="15" text-anchor="middle" font-weight="600" >Risk-off</text>
+<text x="450.0" y="112.0" class="mut" font-size="13" text-anchor="middle" font-weight="400" >más notícias</text>
+<line x1="24.0" y1="120.0" x2="576.0" y2="120.0" class="grid" />
+<text x="24.0" y="151.0" class="ink" font-size="15" text-anchor="start" font-weight="400" >Ações</text>
+<path d="M238,152 L246,138 L254,152 Z" class="s1"/>
+<text x="262.0" y="151.0" class="ink" font-size="14" text-anchor="start" font-weight="400" >compra-se</text>
+<path d="M398,140 L406,154 L414,140 Z" class="s2"/>
+<text x="422.0" y="151.0" class="ink" font-size="14" text-anchor="start" font-weight="400" >vende-se</text>
+<line x1="24.0" y1="172.0" x2="576.0" y2="172.0" class="grid" />
+<text x="24.0" y="203.0" class="ink" font-size="15" text-anchor="start" font-weight="400" >Commodities</text>
+<path d="M238,204 L246,190 L254,204 Z" class="s1"/>
+<text x="262.0" y="203.0" class="ink" font-size="14" text-anchor="start" font-weight="400" >compra-se</text>
+<path d="M398,192 L406,206 L414,192 Z" class="s2"/>
+<text x="422.0" y="203.0" class="ink" font-size="14" text-anchor="start" font-weight="400" >vende-se</text>
+<line x1="24.0" y1="224.0" x2="576.0" y2="224.0" class="grid" />
+<text x="24.0" y="255.0" class="ink" font-size="15" text-anchor="start" font-weight="400" >Dólar</text>
+<path d="M238,244 L246,258 L254,244 Z" class="s2"/>
+<text x="262.0" y="255.0" class="ink" font-size="14" text-anchor="start" font-weight="400" >vende-se</text>
+<path d="M398,256 L406,242 L414,256 Z" class="s1"/>
+<text x="422.0" y="255.0" class="ink" font-size="14" text-anchor="start" font-weight="400" >compra-se</text>
+<line x1="24.0" y1="276.0" x2="576.0" y2="276.0" class="grid" />
+<text x="24.0" y="307.0" class="ink" font-size="15" text-anchor="start" font-weight="400" >Títulos do Tesouro</text>
+<path d="M238,296 L246,310 L254,296 Z" class="s2"/>
+<text x="262.0" y="307.0" class="ink" font-size="14" text-anchor="start" font-weight="400" >vende-se</text>
+<path d="M398,308 L406,294 L414,308 Z" class="s1"/>
+<text x="422.0" y="307.0" class="ink" font-size="14" text-anchor="start" font-weight="400" >compra-se</text>
+<line x1="24.0" y1="328.0" x2="576.0" y2="328.0" class="grid" />
+<text x="24.0" y="342.0" class="mut" font-size="12" text-anchor="start" font-weight="400" >▲ compra (o preço tende a subir)   ▼ venda (o preço tende a cair)</text>
+</svg>
