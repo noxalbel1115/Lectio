@@ -1,0 +1,4 @@
+interface:
+  display_name: "YouTube — Runway"
+  short_description: "Planos no Runway com controle de créditos"
+  default_prompt: "Use $youtube-runway para executar esta etapa da produção do meu vídeo."

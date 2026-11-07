@@ -1,0 +1,2115 @@
+{
+  "date": "2026-11-06",
+  "original_root": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2",
+  "media_root": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade",
+  "file_count": 405,
+  "total_bytes": 1888561262,
+  "key_paths": [
+    {
+      "relative_path": "output/a-ponte-da-bondade/visual-v1/guia-visual.txt",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/visual-v1/guia-visual.txt"
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/guia-de-producao.txt",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/guia-de-producao.txt"
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/montagem/abertura-2min.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/montagem/abertura-2min.mp4"
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/montagem/montar.py",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/montagem/montar.py"
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/roteiro-tecnico-20min.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/roteiro-tecnico-20min.json"
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/registros/estado-producao.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/registros/estado-producao.json"
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/a-ponte-da-bondade-primeiros-5min.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/a-ponte-da-bondade-primeiros-5min.mp4"
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/montar.py",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/montar.py"
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/registros/resumo-final.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/registros/resumo-final.json"
+    }
+  ],
+  "directories": [
+    "output/a-ponte-da-bondade/animacao-v2",
+    "output/a-ponte-da-bondade/animacao-v2/audio",
+    "output/a-ponte-da-bondade/animacao-v2/clips",
+    "output/a-ponte-da-bondade/animacao-v2/montagem",
+    "output/a-ponte-da-bondade/animacao-v2/montagem/partes",
+    "output/a-ponte-da-bondade/animacao-v2/quadros",
+    "output/a-ponte-da-bondade/animacao-v2/referencias",
+    "output/a-ponte-da-bondade/animacao-v2/registros",
+    "output/a-ponte-da-bondade/animacao-v2/revisao",
+    "output/a-ponte-da-bondade/filme-v3",
+    "output/a-ponte-da-bondade/filme-v3/audio",
+    "output/a-ponte-da-bondade/filme-v3/bloco-02",
+    "output/a-ponte-da-bondade/filme-v3/bloco-02/audio",
+    "output/a-ponte-da-bondade/filme-v3/bloco-02/clips",
+    "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem",
+    "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes",
+    "output/a-ponte-da-bondade/filme-v3/bloco-02/quadros",
+    "output/a-ponte-da-bondade/filme-v3/bloco-02/registros",
+    "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao",
+    "output/a-ponte-da-bondade/filme-v3/clips",
+    "output/a-ponte-da-bondade/filme-v3/montagem",
+    "output/a-ponte-da-bondade/filme-v3/quadros",
+    "output/a-ponte-da-bondade/filme-v3/registros",
+    "output/a-ponte-da-bondade/filme-v3/revisao",
+    "output/a-ponte-da-bondade/pre-animacao-v1",
+    "output/a-ponte-da-bondade/pre-animacao-v1/anteriores",
+    "output/a-ponte-da-bondade/pre-animacao-v1/cenarios",
+    "output/a-ponte-da-bondade/pre-animacao-v1/continuidade",
+    "output/a-ponte-da-bondade/pre-animacao-v1/fichas",
+    "output/a-ponte-da-bondade/pre-animacao-v1/quadros-teste",
+    "output/a-ponte-da-bondade/pre-animacao-v1/revisao-video",
+    "output/a-ponte-da-bondade/pre-animacao-v1/revisao-video-final",
+    "output/a-ponte-da-bondade/pre-animacao-v1/revisoes",
+    "output/a-ponte-da-bondade/pre-animacao-v1/revisoes-finais",
+    "output/a-ponte-da-bondade/pre-animacao-v1/video",
+    "output/a-ponte-da-bondade/runway-v1",
+    "output/a-ponte-da-bondade/runway-v1/anteriores",
+    "output/a-ponte-da-bondade/runway-v1/cenarios",
+    "output/a-ponte-da-bondade/runway-v1/personagens",
+    "output/a-ponte-da-bondade/runway-v1/registros",
+    "output/a-ponte-da-bondade/visual-v1"
+  ],
+  "files": [
+    {
+      "relative_path": "output/a-ponte-da-bondade/a-ponte-da-bondade-abertura-2min.zip",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/a-ponte-da-bondade-abertura-2min.zip",
+      "bytes": 235098734
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/a-ponte-da-bondade-pre-animacao.zip",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/a-ponte-da-bondade-pre-animacao.zip",
+      "bytes": 153520676
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/a-ponte-da-bondade-runway.zip",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/a-ponte-da-bondade-runway.zip",
+      "bytes": 83473217
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/LEIA-ME.txt",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/LEIA-ME.txt",
+      "bytes": 3345
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/audio/jardim-amanhecer.mp3",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/audio/jardim-amanhecer.mp3",
+      "bytes": 160958
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/audio/primeiro-cuidado.mp3",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/audio/primeiro-cuidado.mp3",
+      "bytes": 2877840
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/clips/01-amanhecer.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/clips/01-amanhecer.mp4",
+      "bytes": 5807446
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/clips/02-lili-na-porta.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/clips/02-lili-na-porta.mp4",
+      "bytes": 4994228
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/clips/03-cesta.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/clips/03-cesta.mp4",
+      "bytes": 2475392
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/clips/04-perceber.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/clips/04-perceber.mp4",
+      "bytes": 3930764
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/clips/05-caracol-na-margem.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/clips/05-caracol-na-margem.mp4",
+      "bytes": 1903741
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/clips/07-pipo-observa.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/clips/07-pipo-observa.mp4",
+      "bytes": 2959071
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/clips/08-folha-ponte.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/clips/08-folha-ponte.mp4",
+      "bytes": 2241405
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/clips/09-travessia-caracol.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/clips/09-travessia-caracol.mp4",
+      "bytes": 1763576
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/clips/10-agradecimento.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/clips/10-agradecimento.mp4",
+      "bytes": 1907962
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/clips/11-pipo-borboleta.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/clips/11-pipo-borboleta.mp4",
+      "bytes": 5784430
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/clips/12-partida.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/clips/12-partida.mp4",
+      "bytes": 4960953
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/galeria.html",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/galeria.html",
+      "bytes": 9646
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/manifesto-producao.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/manifesto-producao.json",
+      "bytes": 20255
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/montagem/abertura-2min-sem-trilha.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/montagem/abertura-2min-sem-trilha.mp4",
+      "bytes": 35205357
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/montagem/abertura-2min.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/montagem/abertura-2min.mp4",
+      "bytes": 38155257
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/montagem/galeria.py",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/montagem/galeria.py",
+      "bytes": 6443
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/montagem/linha-do-tempo.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/montagem/linha-do-tempo.json",
+      "bytes": 2154
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/montagem/lista-clipes.txt",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/montagem/lista-clipes.txt",
+      "bytes": 440
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/montagem/montar.py",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/montagem/montar.py",
+      "bytes": 3768
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/montagem/partes/01-01-amanhecer.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/montagem/partes/01-01-amanhecer.mp4",
+      "bytes": 6185071
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/montagem/partes/02-02-lili-na-porta.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/montagem/partes/02-02-lili-na-porta.mp4",
+      "bytes": 4298777
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/montagem/partes/03-03-cesta.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/montagem/partes/03-03-cesta.mp4",
+      "bytes": 1791481
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/montagem/partes/04-04-perceber.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/montagem/partes/04-04-perceber.mp4",
+      "bytes": 1354454
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/montagem/partes/05-05-caracol-na-margem.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/montagem/partes/05-05-caracol-na-margem.mp4",
+      "bytes": 2175527
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/montagem/partes/06-07-pipo-observa.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/montagem/partes/06-07-pipo-observa.mp4",
+      "bytes": 2406118
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/montagem/partes/07-06-lili-se-abaixa.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/montagem/partes/07-06-lili-se-abaixa.mp4",
+      "bytes": 2653288
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/montagem/partes/08-08-folha-ponte.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/montagem/partes/08-08-folha-ponte.mp4",
+      "bytes": 1966325
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/montagem/partes/09-09-travessia-caracol.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/montagem/partes/09-09-travessia-caracol.mp4",
+      "bytes": 2115580
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/montagem/partes/10-11-pipo-borboleta.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/montagem/partes/10-11-pipo-borboleta.mp4",
+      "bytes": 4008753
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/montagem/partes/11-10-agradecimento.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/montagem/partes/11-10-agradecimento.mp4",
+      "bytes": 2012607
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/montagem/partes/11-11-pipo-borboleta.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/montagem/partes/11-11-pipo-borboleta.mp4",
+      "bytes": 4008753
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/montagem/partes/12-12-partida.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/montagem/partes/12-12-partida.mp4",
+      "bytes": 4246285
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/montagem/servir.py",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/montagem/servir.py",
+      "bytes": 2184
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/montagem/verificar.py",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/montagem/verificar.py",
+      "bytes": 2832
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/plano-abertura.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/plano-abertura.json",
+      "bytes": 6991
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/quadros/01-amanhecer.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/quadros/01-amanhecer.png",
+      "bytes": 11220801
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/quadros/02-lili-na-porta.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/quadros/02-lili-na-porta.png",
+      "bytes": 11929516
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/quadros/03-cesta.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/quadros/03-cesta.png",
+      "bytes": 9797812
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/quadros/04-perceber.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/quadros/04-perceber.png",
+      "bytes": 12018344
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/quadros/05-caracol-na-margem.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/quadros/05-caracol-na-margem.png",
+      "bytes": 7743440
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/quadros/07-pipo-observa.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/quadros/07-pipo-observa.png",
+      "bytes": 10878995
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/quadros/08-folha-ponte.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/quadros/08-folha-ponte.png",
+      "bytes": 8562867
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/quadros/09-travessia-caracol.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/quadros/09-travessia-caracol.png",
+      "bytes": 8605984
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/quadros/10-agradecimento.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/quadros/10-agradecimento.png",
+      "bytes": 9224671
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/quadros/11-pipo-borboleta.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/quadros/11-pipo-borboleta.png",
+      "bytes": 11039408
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/quadros/12-partida.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/quadros/12-partida.png",
+      "bytes": 10966919
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/referencias/caracol.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/referencias/caracol.png",
+      "bytes": 4493129
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/referencias/objetos.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/referencias/objetos.png",
+      "bytes": 4379435
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/registros/creditos-finais.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/registros/creditos-finais.json",
+      "bytes": 374
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/registros/lote-final-resultados.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/registros/lote-final-resultados.json",
+      "bytes": 4164
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/registros/producao-em-andamento.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/registros/producao-em-andamento.json",
+      "bytes": 74165
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/registros/quadros-02-a-07.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/registros/quadros-02-a-07.json",
+      "bytes": 29016
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/registros/quadros-09-10-resultados.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/registros/quadros-09-10-resultados.json",
+      "bytes": 1509
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/registros/quadros-finais-resultados.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/registros/quadros-finais-resultados.json",
+      "bytes": 2302
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/registros/referencias-base.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/registros/referencias-base.json",
+      "bytes": 2800
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/registros/resultado-video-01.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/registros/resultado-video-01.json",
+      "bytes": 990
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/registros/resultados-iniciais.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/registros/resultados-iniciais.json",
+      "bytes": 4478
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/registros/resultados-parciais.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/registros/resultados-parciais.json",
+      "bytes": 14854
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/registros/resultados-quadros-02-a-07.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/registros/resultados-quadros-02-a-07.json",
+      "bytes": 9356
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/registros/revisao-visual.txt",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/registros/revisao-visual.txt",
+      "bytes": 1582
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/registros/submissoes-audio.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/registros/submissoes-audio.json",
+      "bytes": 5230
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/registros/submissoes-completas.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/registros/submissoes-completas.json",
+      "bytes": 103589
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/registros/submissoes-economicas.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/registros/submissoes-economicas.json",
+      "bytes": 98155
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/registros/submissoes-iniciais.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/registros/submissoes-iniciais.json",
+      "bytes": 10949
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/registros/verificacao-tecnica.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/registros/verificacao-tecnica.json",
+      "bytes": 1082
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/registros/video-01.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/registros/video-01.json",
+      "bytes": 2873
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/registros/videos-05-07.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/registros/videos-05-07.json",
+      "bytes": 2018
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/registros/videos-09-10-resultados.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/registros/videos-09-10-resultados.json",
+      "bytes": 2095
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/registros/videos-resultados.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/registros/videos-resultados.json",
+      "bytes": 3545
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/01-amanhecer-1.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/01-amanhecer-1.jpg",
+      "bytes": 45980
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/01-amanhecer-5.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/01-amanhecer-5.jpg",
+      "bytes": 46826
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/01-amanhecer-9.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/01-amanhecer-9.jpg",
+      "bytes": 46671
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/01-meio.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/01-meio.png",
+      "bytes": 1280525
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/02-lili-na-porta-1.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/02-lili-na-porta-1.jpg",
+      "bytes": 51819
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/02-lili-na-porta-5.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/02-lili-na-porta-5.jpg",
+      "bytes": 52542
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/02-lili-na-porta-9.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/02-lili-na-porta-9.jpg",
+      "bytes": 52278
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/03-cesta-1.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/03-cesta-1.jpg",
+      "bytes": 43050
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/03-cesta-5.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/03-cesta-5.jpg",
+      "bytes": 41327
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/03-cesta-9.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/03-cesta-9.jpg",
+      "bytes": 41516
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/04-perceber-1.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/04-perceber-1.jpg",
+      "bytes": 50615
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/04-perceber-5.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/04-perceber-5.jpg",
+      "bytes": 49126
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/04-perceber-6.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/04-perceber-6.jpg",
+      "bytes": 83483
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/04-perceber-7.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/04-perceber-7.jpg",
+      "bytes": 83079
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/04-perceber-8.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/04-perceber-8.jpg",
+      "bytes": 83220
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/04-perceber-9.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/04-perceber-9.jpg",
+      "bytes": 48816
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/05-caracol-na-margem-1.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/05-caracol-na-margem-1.jpg",
+      "bytes": 26164
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/05-caracol-na-margem-5.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/05-caracol-na-margem-5.jpg",
+      "bytes": 25867
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/05-caracol-na-margem-9.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/05-caracol-na-margem-9.jpg",
+      "bytes": 25667
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/07-pipo-observa-1.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/07-pipo-observa-1.jpg",
+      "bytes": 44086
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/07-pipo-observa-5.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/07-pipo-observa-5.jpg",
+      "bytes": 43571
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/07-pipo-observa-9.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/07-pipo-observa-9.jpg",
+      "bytes": 43803
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/08-folha-ponte-1.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/08-folha-ponte-1.jpg",
+      "bytes": 32443
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/08-folha-ponte-5.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/08-folha-ponte-5.jpg",
+      "bytes": 31988
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/08-folha-ponte-9.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/08-folha-ponte-9.jpg",
+      "bytes": 32448
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/09-travessia-caracol-1.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/09-travessia-caracol-1.jpg",
+      "bytes": 33967
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/09-travessia-caracol-3.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/09-travessia-caracol-3.jpg",
+      "bytes": 33568
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/09-travessia-caracol-5.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/09-travessia-caracol-5.jpg",
+      "bytes": 33157
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/09-travessia-caracol-7.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/09-travessia-caracol-7.jpg",
+      "bytes": 32911
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/09-travessia-caracol-9.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/09-travessia-caracol-9.jpg",
+      "bytes": 32822
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/10-agradecimento-1.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/10-agradecimento-1.jpg",
+      "bytes": 33240
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/10-agradecimento-3.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/10-agradecimento-3.jpg",
+      "bytes": 33460
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/10-agradecimento-5.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/10-agradecimento-5.jpg",
+      "bytes": 33622
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/10-agradecimento-7.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/10-agradecimento-7.jpg",
+      "bytes": 33232
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/10-agradecimento-9.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/10-agradecimento-9.jpg",
+      "bytes": 33582
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/11-pipo-borboleta-1.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/11-pipo-borboleta-1.jpg",
+      "bytes": 46158
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/11-pipo-borboleta-5.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/11-pipo-borboleta-5.jpg",
+      "bytes": 45995
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/11-pipo-borboleta-9.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/11-pipo-borboleta-9.jpg",
+      "bytes": 45503
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/12-partida-1.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/12-partida-1.jpg",
+      "bytes": 43959
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/12-partida-5.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/12-partida-5.jpg",
+      "bytes": 39279
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/12-partida-9.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/12-partida-9.jpg",
+      "bytes": 37573
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/poster-01-amanhecer.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/poster-01-amanhecer.jpg",
+      "bytes": 76851
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/poster-02-lili-na-porta.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/poster-02-lili-na-porta.jpg",
+      "bytes": 78897
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/poster-03-cesta.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/poster-03-cesta.jpg",
+      "bytes": 66797
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/poster-04-perceber.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/poster-04-perceber.jpg",
+      "bytes": 85638
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/poster-05-caracol-na-margem.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/poster-05-caracol-na-margem.jpg",
+      "bytes": 44573
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/poster-06-lili-se-abaixa.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/poster-06-lili-se-abaixa.jpg",
+      "bytes": 76911
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/poster-07-pipo-observa.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/poster-07-pipo-observa.jpg",
+      "bytes": 71599
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/poster-08-folha-ponte.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/poster-08-folha-ponte.jpg",
+      "bytes": 50686
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/poster-09-travessia-caracol.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/poster-09-travessia-caracol.jpg",
+      "bytes": 50717
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/poster-10-agradecimento.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/poster-10-agradecimento.jpg",
+      "bytes": 52278
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/poster-11-pipo-borboleta.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/poster-11-pipo-borboleta.jpg",
+      "bytes": 75759
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/animacao-v2/revisao/poster-12-partida.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/animacao-v2/revisao/poster-12-partida.jpg",
+      "bytes": 66837
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/LEIA-ME.txt",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/LEIA-ME.txt",
+      "bytes": 3290
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/LEIA-ME.txt",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/LEIA-ME.txt",
+      "bytes": 2115
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/audio/caminho-encontro.mp3",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/audio/caminho-encontro.mp3",
+      "bytes": 2491019
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/audio/escolher-ajudar.mp3",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/audio/escolher-ajudar.mp3",
+      "bytes": 3745524
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-01.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-01.mp4",
+      "bytes": 7538851
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-02.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-02.mp4",
+      "bytes": 5334759
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-03.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-03.mp4",
+      "bytes": 3432889
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-04.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-04.mp4",
+      "bytes": 5207247
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-05.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-05.mp4",
+      "bytes": 3517537
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-06.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-06.mp4",
+      "bytes": 8664313
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-07.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-07.mp4",
+      "bytes": 3278620
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-08.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-08.mp4",
+      "bytes": 2514441
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-09.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-09.mp4",
+      "bytes": 6396313
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-10.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-10.mp4",
+      "bytes": 9375779
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-11-v2.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-11-v2.mp4",
+      "bytes": 2251567
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-11.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-11.mp4",
+      "bytes": 4256582
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-12.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-12.mp4",
+      "bytes": 3212195
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-13.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-13.mp4",
+      "bytes": 4479414
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-14-v2.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-14-v2.mp4",
+      "bytes": 3764174
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-14.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-14.mp4",
+      "bytes": 4743664
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-15.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/clips/02-15.mp4",
+      "bytes": 3231026
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/galeria.html",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/galeria.html",
+      "bytes": 7613
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/manifesto.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/manifesto.json",
+      "bytes": 5077
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/a-ponte-da-bondade-primeiros-5min.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/a-ponte-da-bondade-primeiros-5min.mp4",
+      "bytes": 111756634
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/baixar.py",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/baixar.py",
+      "bytes": 1015
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/bloco-02-encontrar-e-escolher.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/bloco-02-encontrar-e-escolher.mp4",
+      "bytes": 73629547
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/bloco-02-sem-trilha.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/bloco-02-sem-trilha.mp4",
+      "bytes": 69196031
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/galeria.py",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/galeria.py",
+      "bytes": 4386
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/linha-do-tempo.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/linha-do-tempo.json",
+      "bytes": 4562
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/lista-clipes.txt",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/lista-clipes.txt",
+      "bytes": 360
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/lista-filme.txt",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/lista-filme.txt",
+      "bytes": 296
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/montar.py",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/montar.py",
+      "bytes": 3723
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-01.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-01.mp4",
+      "bytes": 7728064
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-02.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-02.mp4",
+      "bytes": 5989216
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-03.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-03.mp4",
+      "bytes": 3005010
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-04.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-04.mp4",
+      "bytes": 4809275
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-05.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-05.mp4",
+      "bytes": 2900898
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-06.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-06.mp4",
+      "bytes": 8266244
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-07.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-07.mp4",
+      "bytes": 3451541
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-08.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-08.mp4",
+      "bytes": 2385634
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-09.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-09.mp4",
+      "bytes": 3154278
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-10.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-10.mp4",
+      "bytes": 10804727
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-11.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-11.mp4",
+      "bytes": 2633176
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-12.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-12.mp4",
+      "bytes": 3288917
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-13.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-13.mp4",
+      "bytes": 4875398
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-14.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-14.mp4",
+      "bytes": 3851830
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-15.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/partes/02-15.mp4",
+      "bytes": 2063005
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/revisar.py",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/montagem/revisar.py",
+      "bytes": 1314
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/plano.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/plano.json",
+      "bytes": 3807
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-01.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-01.png",
+      "bytes": 11764665
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-03.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-03.png",
+      "bytes": 9224346
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-04.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-04.png",
+      "bytes": 6953942
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-05.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-05.png",
+      "bytes": 11561364
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-06.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-06.png",
+      "bytes": 11883152
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-07.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-07.png",
+      "bytes": 10906997
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-08.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-08.png",
+      "bytes": 7311531
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-09.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-09.png",
+      "bytes": 11530638
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-10-v2.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-10-v2.png",
+      "bytes": 12643392
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-10.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-10.png",
+      "bytes": 12375990
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-11.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-11.png",
+      "bytes": 8304218
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-12.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-12.png",
+      "bytes": 12102739
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-14.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-14.png",
+      "bytes": 12088146
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-15.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/quadros/02-15.png",
+      "bytes": 10574832
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/registros/fontes-tecnicas.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/registros/fontes-tecnicas.json",
+      "bytes": 5718
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/registros/resultados-01.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/registros/resultados-01.json",
+      "bytes": 2190
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/registros/resultados-02.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/registros/resultados-02.json",
+      "bytes": 11213
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/registros/resultados-03.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/registros/resultados-03.json",
+      "bytes": 14582
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/registros/resultados-04.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/registros/resultados-04.json",
+      "bytes": 21322
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/registros/resultados-05.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/registros/resultados-05.json",
+      "bytes": 28968
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/registros/resultados-06.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/registros/resultados-06.json",
+      "bytes": 31422
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/registros/resultados-07.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/registros/resultados-07.json",
+      "bytes": 32741
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/registros/resumo-final.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/registros/resumo-final.json",
+      "bytes": 902
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/registros/submissoes-com-audio.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/registros/submissoes-com-audio.json",
+      "bytes": 50821
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/registros/submissoes-completas.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/registros/submissoes-completas.json",
+      "bytes": 81328
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/registros/submissoes-finais.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/registros/submissoes-finais.json",
+      "bytes": 86569
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/registros/submissoes-primeiro-lote.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/registros/submissoes-primeiro-lote.json",
+      "bytes": 47109
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/registros/submissoes-revisao-video.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/registros/submissoes-revisao-video.json",
+      "bytes": 83887
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/registros/submissoes-tico.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/registros/submissoes-tico.json",
+      "bytes": 12948
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/registros/submissoes-videos-lote2.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/registros/submissoes-videos-lote2.json",
+      "bytes": 63401
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/registros/submissoes-videos-lote3.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/registros/submissoes-videos-lote3.json",
+      "bytes": 78879
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/registros/submissoes.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/registros/submissoes.json",
+      "bytes": 11365
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/registros/verificacao-tecnica.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/registros/verificacao-tecnica.json",
+      "bytes": 1688
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-01-movimento-v2.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-01-movimento-v2.jpg",
+      "bytes": 375087
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-02-movimento-v2.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-02-movimento-v2.jpg",
+      "bytes": 380458
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-02-movimento.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-02-movimento.jpg",
+      "bytes": 289780
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-03-movimento-v2.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-03-movimento-v2.jpg",
+      "bytes": 314246
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-04-movimento-v2.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-04-movimento-v2.jpg",
+      "bytes": 192935
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-05-movimento-v2.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-05-movimento-v2.jpg",
+      "bytes": 385703
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-06-movimento-v2.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-06-movimento-v2.jpg",
+      "bytes": 344272
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-07-movimento-v2.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-07-movimento-v2.jpg",
+      "bytes": 376019
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-08-movimento-v2.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-08-movimento-v2.jpg",
+      "bytes": 216808
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-09-corte-final.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-09-corte-final.jpg",
+      "bytes": 72998
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-09-movimento-v2.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-09-movimento-v2.jpg",
+      "bytes": 370624
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-09-ponto-de-corte.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-09-ponto-de-corte.jpg",
+      "bytes": 66549
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-10-movimento-v2.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-10-movimento-v2.jpg",
+      "bytes": 420608
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-11-movimento-v2.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-11-movimento-v2.jpg",
+      "bytes": 211005
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-11-v2-movimento-v2.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-11-v2-movimento-v2.jpg",
+      "bytes": 199576
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-12-movimento-v2.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-12-movimento-v2.jpg",
+      "bytes": 414962
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-13-movimento-v2.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-13-movimento-v2.jpg",
+      "bytes": 393753
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-13-movimento.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-13-movimento.jpg",
+      "bytes": 296240
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-14-movimento-v2.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-14-movimento-v2.jpg",
+      "bytes": 382855
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-14-v2-movimento-v2.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-14-v2-movimento-v2.jpg",
+      "bytes": 390926
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-15-movimento-v2.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-15-movimento-v2.jpg",
+      "bytes": 338977
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-15-ponto-de-corte.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/02-15-ponto-de-corte.jpg",
+      "bytes": 67659
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-01.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-01.jpg",
+      "bytes": 163584
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-02.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-02.jpg",
+      "bytes": 169000
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-03.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-03.jpg",
+      "bytes": 130182
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-04.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-04.jpg",
+      "bytes": 74988
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-05.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-05.jpg",
+      "bytes": 174784
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-06.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-06.jpg",
+      "bytes": 158882
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-07.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-07.jpg",
+      "bytes": 169120
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-08.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-08.jpg",
+      "bytes": 90567
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-09.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-09.jpg",
+      "bytes": 178724
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-10.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-10.jpg",
+      "bytes": 190549
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-11.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-11.jpg",
+      "bytes": 84803
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-12.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-12.jpg",
+      "bytes": 192538
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-13.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-13.jpg",
+      "bytes": 184761
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-14.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-14.jpg",
+      "bytes": 187436
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-15.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/poster-02-15.jpg",
+      "bytes": 148832
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/quadros-02-01-02-03-02-04-02-05.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/quadros-02-01-02-03-02-04-02-05.jpg",
+      "bytes": 514006
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/quadros-02-06-02-07-02-08-02-09.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/quadros-02-06-02-07-02-08-02-09.jpg",
+      "bytes": 553944
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/quadros-02-07-02-09.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/quadros-02-07-02-09.jpg",
+      "bytes": 310741
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/quadros-02-10-02-11-02-12-02-14.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/quadros-02-10-02-11-02-12-02-14.jpg",
+      "bytes": 579666
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/quadros-02-10-v2-02-10-02-11-02-12.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/quadros-02-10-v2-02-10-02-11-02-12.jpg",
+      "bytes": 597197
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/quadros-02-14-02-15.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/quadros-02-14-02-15.jpg",
+      "bytes": 297216
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/quadros-02-15.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/bloco-02/revisao/quadros-02-15.jpg",
+      "bytes": 133650
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/decupagem-planejado-v1.csv",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/decupagem-planejado-v1.csv",
+      "bytes": 9238
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/decupagem.csv",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/decupagem.csv",
+      "bytes": 9775
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/galeria.html",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/galeria.html",
+      "bytes": 20470
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/montagem/comparacao-formatos.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/montagem/comparacao-formatos.mp4",
+      "bytes": 1406171
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/montagem/galeria.py",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/montagem/galeria.py",
+      "bytes": 8028
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/montagem/servir.py",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/montagem/servir.py",
+      "bytes": 2184
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/quadros/13-chegada-ao-bosque.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/quadros/13-chegada-ao-bosque.png",
+      "bytes": 11817459
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/quadros/18-tico-apressado.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/quadros/18-tico-apressado.png",
+      "bytes": 11805675
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/quadros/23-bento-roda-presa.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/quadros/23-bento-roda-presa.png",
+      "bytes": 12336223
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/quadros/42-tico-na-margem-v2.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/quadros/42-tico-na-margem-v2.png",
+      "bytes": 13112427
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/quadros/42-tico-na-margem.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/quadros/42-tico-na-margem.png",
+      "bytes": 13132024
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/quadros/46-bento-oferece-ajuda.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/quadros/46-bento-oferece-ajuda.png",
+      "bytes": 10327722
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/quadros/71-travessia-cooperacao-v2.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/quadros/71-travessia-cooperacao-v2.png",
+      "bytes": 10765402
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/quadros/71-travessia-cooperacao.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/quadros/71-travessia-cooperacao.png",
+      "bytes": 10440902
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/quadros/83-oracao-no-jardim-v2.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/quadros/83-oracao-no-jardim-v2.png",
+      "bytes": 10665666
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/quadros/83-oracao-no-jardim.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/quadros/83-oracao-no-jardim.png",
+      "bytes": 10266009
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/quadros/91-tico-espera-tati-v2.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/quadros/91-tico-espera-tati-v2.png",
+      "bytes": 11199517
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/quadros/91-tico-espera-tati.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/quadros/91-tico-espera-tati.png",
+      "bytes": 10804213
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/quadros/96-tico-caracol.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/quadros/96-tico-caracol.png",
+      "bytes": 8311927
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/registros/creditos.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/registros/creditos.json",
+      "bytes": 301
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/registros/estado-producao.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/registros/estado-producao.json",
+      "bytes": 897
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/registros/referencias.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/registros/referencias.json",
+      "bytes": 3996
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/registros/resultados-imagens.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/registros/resultados-imagens.json",
+      "bytes": 2433
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/registros/resultados-quadros-centrais.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/registros/resultados-quadros-centrais.json",
+      "bytes": 7301
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/registros/resultados-revisao-pontual.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/registros/resultados-revisao-pontual.json",
+      "bytes": 3220
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/registros/submissoes-imagens.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/registros/submissoes-imagens.json",
+      "bytes": 18840
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/registros/submissoes-quadros-centrais.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/registros/submissoes-quadros-centrais.json",
+      "bytes": 60691
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/registros/submissoes-revisao-pontual.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/registros/submissoes-revisao-pontual.json",
+      "bytes": 14668
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/revisao/comparacao-5s.jpg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/revisao/comparacao-5s.jpg",
+      "bytes": 57951
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/roteiro-tecnico-20min-planejado-v1.txt",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/roteiro-tecnico-20min-planejado-v1.txt",
+      "bytes": 9562
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/roteiro-tecnico-20min.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/roteiro-tecnico-20min.json",
+      "bytes": 25888
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/filme-v3/roteiro-tecnico-20min.txt",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/filme-v3/roteiro-tecnico-20min.txt",
+      "bytes": 9630
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/LEIA-ME.txt",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/LEIA-ME.txt",
+      "bytes": 393
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/REVISAO.txt",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/REVISAO.txt",
+      "bytes": 3398
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/anteriores/borboleta-v1.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/anteriores/borboleta-v1.png",
+      "bytes": 6981299
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/anteriores/caracol-v1.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/anteriores/caracol-v1.png",
+      "bytes": 6552649
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/anteriores/escala-elenco-rejeitada.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/anteriores/escala-elenco-rejeitada.png",
+      "bytes": 6340032
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/anteriores/lili-v1.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/anteriores/lili-v1.png",
+      "bytes": 7612163
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/anteriores/nino-v1.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/anteriores/nino-v1.png",
+      "bytes": 6948054
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/anteriores/objetos-v1.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/anteriores/objetos-v1.png",
+      "bytes": 7716321
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/anteriores/ovelha-v1.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/anteriores/ovelha-v1.png",
+      "bytes": 7659266
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/anteriores/teste-v1-pedra-flutuante.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/anteriores/teste-v1-pedra-flutuante.mp4",
+      "bytes": 5273739
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/anteriores/tico-v1.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/anteriores/tico-v1.png",
+      "bytes": 7391931
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/anteriores/urso-v1.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/anteriores/urso-v1.png",
+      "bytes": 7709756
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/cenarios/bosque.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/cenarios/bosque.png",
+      "bytes": 6055479
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/cenarios/colina.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/cenarios/colina.png",
+      "bytes": 6160382
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/cenarios/jardim.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/cenarios/jardim.png",
+      "bytes": 5758381
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/cenarios/margem.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/cenarios/margem.png",
+      "bytes": 6631216
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/cenarios/partilha.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/cenarios/partilha.png",
+      "bytes": 5888846
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/cenarios/ponte.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/cenarios/ponte.png",
+      "bytes": 5981059
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/cenarios/toca-de-lili.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/cenarios/toca-de-lili.png",
+      "bytes": 5731076
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/cenarios/travessia.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/cenarios/travessia.png",
+      "bytes": 5164555
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/continuidade/escala-elenco.csv",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/continuidade/escala-elenco.csv",
+      "bytes": 501
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/continuidade/escala-elenco.svg",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/continuidade/escala-elenco.svg",
+      "bytes": 3833
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/continuidade/objetos.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/continuidade/objetos.png",
+      "bytes": 4622858
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/direcao-do-teste.txt",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/direcao-do-teste.txt",
+      "bytes": 2678
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/fichas/bento.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/fichas/bento.png",
+      "bytes": 6138069
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/fichas/borboleta.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/fichas/borboleta.png",
+      "bytes": 5130292
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/fichas/caracol.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/fichas/caracol.png",
+      "bytes": 4272084
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/fichas/lili.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/fichas/lili.png",
+      "bytes": 5416047
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/fichas/nino.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/fichas/nino.png",
+      "bytes": 5186354
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/fichas/ovelha.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/fichas/ovelha.png",
+      "bytes": 7527983
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/fichas/pipo.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/fichas/pipo.png",
+      "bytes": 7370217
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/fichas/tati.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/fichas/tati.png",
+      "bytes": 7087250
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/fichas/tico.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/fichas/tico.png",
+      "bytes": 6167132
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/fichas/urso.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/fichas/urso.png",
+      "bytes": 5444682
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/galeria.html",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/galeria.html",
+      "bytes": 12084
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/guia-de-producao.txt",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/guia-de-producao.txt",
+      "bytes": 6091
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/manifesto.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/manifesto.json",
+      "bytes": 8096
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/mapa-sequencias-20-min.csv",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/mapa-sequencias-20-min.csv",
+      "bytes": 1967
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/prompts-selecionados.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/prompts-selecionados.json",
+      "bytes": 16940
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/quadros-teste/01-encontro.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/quadros-teste/01-encontro.png",
+      "bytes": 11957776
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/quadros-teste/02-ajuda.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/quadros-teste/02-ajuda.png",
+      "bytes": 12095818
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/quadros-teste/03-gratidao.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/quadros-teste/03-gratidao.png",
+      "bytes": 12214632
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/registro-caracol-final.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/registro-caracol-final.json",
+      "bytes": 5451
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/registro-caracol-retoque.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/registro-caracol-retoque.json",
+      "bytes": 4087
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/registro-complementos.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/registro-complementos.json",
+      "bytes": 38965
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/registro-revisao-final.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/registro-revisao-final.json",
+      "bytes": 33147
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/registro-submissoes.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/registro-submissoes.json",
+      "bytes": 71290
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/resultados-01.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/resultados-01.json",
+      "bytes": 7434
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/resultados-02.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/resultados-02.json",
+      "bytes": 7988
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/resultados-03.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/resultados-03.json",
+      "bytes": 669
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/resultados-complementos-02.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/resultados-complementos-02.json",
+      "bytes": 8820
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/resultados-complementos-03.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/resultados-complementos-03.json",
+      "bytes": 9374
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/resultados-complementos.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/resultados-complementos.json",
+      "bytes": 5142
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/resultados-entrega-final-02.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/resultados-entrega-final-02.json",
+      "bytes": 6112
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/resultados-entrega-final.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/resultados-entrega-final.json",
+      "bytes": 3859
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/resultados-revisao-final.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/resultados-revisao-final.json",
+      "bytes": 5300
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisao-video/quadro-01.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisao-video/quadro-01.png",
+      "bytes": 826467
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisao-video/quadro-02.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisao-video/quadro-02.png",
+      "bytes": 833210
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisao-video/quadro-03.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisao-video/quadro-03.png",
+      "bytes": 835998
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisao-video/quadro-04.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisao-video/quadro-04.png",
+      "bytes": 832427
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisao-video/quadro-05.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisao-video/quadro-05.png",
+      "bytes": 840295
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisao-video-final/quadro-01.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisao-video-final/quadro-01.png",
+      "bytes": 816650
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisao-video-final/quadro-02.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisao-video-final/quadro-02.png",
+      "bytes": 819185
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisao-video-final/quadro-03.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisao-video-final/quadro-03.png",
+      "bytes": 821549
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisao-video-final/quadro-04.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisao-video-final/quadro-04.png",
+      "bytes": 821728
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisao-video-final/quadro-05.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisao-video-final/quadro-05.png",
+      "bytes": 822441
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisao-video-final/quadro-06.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisao-video-final/quadro-06.png",
+      "bytes": 820681
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisao-video-final/quadro-07.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisao-video-final/quadro-07.png",
+      "bytes": 816102
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisao-video-final/quadro-08.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisao-video-final/quadro-08.png",
+      "bytes": 814120
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisao-video-final/quadro-09.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisao-video-final/quadro-09.png",
+      "bytes": 818511
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisao-video-final/quadro-10.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisao-video-final/quadro-10.png",
+      "bytes": 822249
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisoes/borboleta.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisoes/borboleta.png",
+      "bytes": 6640466
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisoes/caracol.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisoes/caracol.png",
+      "bytes": 6572138
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisoes/lili.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisoes/lili.png",
+      "bytes": 7021426
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisoes/nino.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisoes/nino.png",
+      "bytes": 6751788
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisoes/objetos.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisoes/objetos.png",
+      "bytes": 4622858
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisoes/ovelha.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisoes/ovelha.png",
+      "bytes": 7527983
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisoes/tico.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisoes/tico.png",
+      "bytes": 6167132
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisoes/urso.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisoes/urso.png",
+      "bytes": 7668935
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisoes-finais/borboleta.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisoes-finais/borboleta.png",
+      "bytes": 5130292
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisoes-finais/caracol-limpo.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisoes-finais/caracol-limpo.png",
+      "bytes": 4877315
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisoes-finais/caracol-retoque.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisoes-finais/caracol-retoque.png",
+      "bytes": 6739480
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisoes-finais/caracol.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisoes-finais/caracol.png",
+      "bytes": 4272084
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisoes-finais/lili.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisoes-finais/lili.png",
+      "bytes": 5416047
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisoes-finais/nino.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisoes-finais/nino.png",
+      "bytes": 5186354
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/revisoes-finais/urso.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/revisoes-finais/urso.png",
+      "bytes": 5444682
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/pre-animacao-v1/video/teste-lili-bento.mp4",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/pre-animacao-v1/video/teste-lili-bento.mp4",
+      "bytes": 5692202
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/LEIA-ME.txt",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/LEIA-ME.txt",
+      "bytes": 1385
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/cenarios/bosque.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/cenarios/bosque.png",
+      "bytes": 6055479
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/cenarios/colina.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/cenarios/colina.png",
+      "bytes": 6160382
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/cenarios/jardim.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/cenarios/jardim.png",
+      "bytes": 5758381
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/cenarios/margem.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/cenarios/margem.png",
+      "bytes": 6631216
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/cenarios/partilha.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/cenarios/partilha.png",
+      "bytes": 5888846
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/cenarios/ponte.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/cenarios/ponte.png",
+      "bytes": 5981059
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/cenarios/toca-de-lili.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/cenarios/toca-de-lili.png",
+      "bytes": 5731076
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/cenarios/travessia.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/cenarios/travessia.png",
+      "bytes": 5164555
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/galeria.html",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/galeria.html",
+      "bytes": 8201
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/manifesto.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/manifesto.json",
+      "bytes": 25303
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/personagens/bento.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/personagens/bento.png",
+      "bytes": 3682752
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/personagens/borboleta.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/personagens/borboleta.png",
+      "bytes": 3514372
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/personagens/caracol.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/personagens/caracol.png",
+      "bytes": 3777559
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/personagens/lili.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/personagens/lili.png",
+      "bytes": 3620738
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/personagens/nino.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/personagens/nino.png",
+      "bytes": 3800048
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/personagens/ovelha.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/personagens/ovelha.png",
+      "bytes": 3627317
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/personagens/pipo.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/personagens/pipo.png",
+      "bytes": 3520100
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/personagens/tati.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/personagens/tati.png",
+      "bytes": 3493840
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/personagens/tico.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/personagens/tico.png",
+      "bytes": 3758769
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/personagens/urso.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/personagens/urso.png",
+      "bytes": 3355659
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/registros/registro-final.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/registros/registro-final.json",
+      "bytes": 19270
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/registros/resultado-nino-corrigido.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/registros/resultado-nino-corrigido.json",
+      "bytes": 1111
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/registros/resultados-atualizados.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/registros/resultados-atualizados.json",
+      "bytes": 28519
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/registros/resultados-entrega.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/registros/resultados-entrega.json",
+      "bytes": 25854
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/registros/resultados-finais.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/registros/resultados-finais.json",
+      "bytes": 26275
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/runway-v1/registros/resultados-runway.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/runway-v1/registros/resultados-runway.json",
+      "bytes": 17363
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/visual-v1/01-personagens-principais.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/visual-v1/01-personagens-principais.png",
+      "bytes": 2115616
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/visual-v1/02-coadjuvantes-e-objetos.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/visual-v1/02-coadjuvantes-e-objetos.png",
+      "bytes": 1965574
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/visual-v1/03-cenarios.png",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/visual-v1/03-cenarios.png",
+      "bytes": 3110665
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/visual-v1/guia-visual.txt",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/visual-v1/guia-visual.txt",
+      "bytes": 8517
+    },
+    {
+      "relative_path": "output/a-ponte-da-bondade/visual-v1/prompts.json",
+      "absolute_path": "/Users/valterdomingosdeandradejunior/Documents/ChatGPT/Youtube 2/output/a-ponte-da-bondade/visual-v1/prompts.json",
+      "bytes": 7115
+    }
+  ]
+}
