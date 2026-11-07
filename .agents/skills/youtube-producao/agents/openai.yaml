@@ -1,0 +1,4 @@
+interface:
+  display_name: "YouTube — Produção"
+  short_description: "Vídeos com continuidade e contexto enxuto"
+  default_prompt: "Use $youtube-producao para executar esta etapa da produção do meu vídeo."

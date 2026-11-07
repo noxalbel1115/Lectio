@@ -1,0 +1,4 @@
+interface:
+  display_name: "YouTube — Montagem"
+  short_description: "Edição e revisão técnica com FFmpeg"
+  default_prompt: "Use $youtube-montagem para executar esta etapa da produção do meu vídeo."

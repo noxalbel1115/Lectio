@@ -1,0 +1,80 @@
+{
+  "projeto": "canal-historias-empresas-brasileiras",
+  "atualizado_em": "2026-11-07",
+  "versao": "preparacao-0",
+  "repositorio": "noxalbel1115/Lectio",
+  "pasta": ".agents/projetos/canal-historias-empresas-brasileiras",
+  "relacao_com_o_app": "Convive no mesmo repositório do PWA de leitura bíblica. Nenhum arquivo do app foi alterado. Esta pasta não faz parte do plano de leitura.",
+  "relacao_com_o_filme_antigo": "Não é continuação de A Ponte da Bondade. O filme antigo permanece só como método e índice de caminhos dentro da skill youtube-producao. A mídia local do Mac não foi copiada.",
+  "briefing_vigente": {
+    "canal": "Histórias de empresas brasileiras",
+    "forma": "Imagens e narração",
+    "publico": "não definido",
+    "duracao": "não definida",
+    "estilo_visual": "não definido",
+    "piloto": "pendente",
+    "pendencias_do_piloto": [
+      "empresa ou história do episódio",
+      "duração e formato de tela",
+      "estilo visual",
+      "tratamento da narração",
+      "teto de gasto antes de geração paga"
+    ],
+    "fonte": "Briefing informado nesta instalação em 2026-11-07. O pacote de 2026-11-06 ainda registrava o formato do canal novo como indefinido; esse texto foi preservado nas skills e não reescrito."
+  },
+  "entregas": [],
+  "ultimo_plano_concluido": null,
+  "tarefas_pendentes": [
+    {
+      "id": "piloto-01",
+      "descricao": "Definir o piloto: história, duração, formato, visual, narração e teto de gasto."
+    },
+    {
+      "id": "orcamento-01",
+      "descricao": "Reconsultar o saldo do Runway no ambiente que for gerar mídia, antes de orçar. O saldo histórico de 258 créditos em 06/11/2026 não foi reconsultado aqui."
+    },
+    {
+      "id": "codex-01",
+      "descricao": "Levar esta branch ao Codex pelo fluxo do ESTADO.md. Esta preparação não cria ambiente Codex nem autentica o Runway."
+    }
+  ],
+  "gastos_confirmados": {
+    "creditos_de_midia": 0,
+    "compras": 0,
+    "publicacao_youtube": false,
+    "saldo_runway_neste_ambiente": "não consultado; não há sessão Runway"
+  },
+  "limitacoes": [
+    "Execução feita por Cloud Agent do Cursor no repositório Lectio, não por uma tarefa do Codex Cloud.",
+    "Skills instaladas não transportam autenticação, saldo ou conectores.",
+    "Runway, compra de créditos, geração paga e publicação no YouTube não foram executados.",
+    "A página de início do Codex Cloud consultada descreve a seleção do repositório GitHub, não um seletor de branch. A branch desta preparação só entra no checkout padrão depois de um merge em main, que não foi feito.",
+    "Há relato aberto de que o Codex Cloud não anuncia sozinho skills de repositório em .agents/skills, embora os arquivos possam ser lidos quando a tarefa manda (openai/codex#52266, atualizado em 2026-11-03)."
+  ],
+  "ambiente_desta_execucao": {
+    "tipo": "Cursor Cloud Agent",
+    "distinto_de": "Codex Cloud",
+    "python": "3.12.3",
+    "ffmpeg": "6.1.1-3ubuntu5",
+    "ffprobe": "6.1.1-3ubuntu5",
+    "variavel_runway_presente": false,
+    "conectores_autenticados_nesta_passagem": []
+  },
+  "skills": {
+    "caminho": ".agents/skills",
+    "instaladas": [
+      "youtube-producao",
+      "youtube-runway",
+      "youtube-montagem"
+    ],
+    "homonimas_anteriores_no_HEAD": false,
+    "substituicao": "não houve",
+    "arquivos": 13,
+    "indice_antigo": {
+      "file_count": 405,
+      "total_bytes": 1888561262,
+      "midia_incluida": false
+    }
+  },
+  "proximo_passo": "Esperar a definição do piloto. Não gerar mídia nem retomar o filme antigo."
+}
